@@ -1,0 +1,6 @@
+dist/
+data/raw.json
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
