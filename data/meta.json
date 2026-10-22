@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 15:46 UTC",
+  "generated_at": "2026-10-22 15:56 UTC",
   "stats": {
     "raw_entries": 4245,
     "price_points": 2893,
@@ -11,7 +11,7 @@
     "max_spread": 60.0,
     "free_models": 128,
     "priced_models": 1465,
-    "generated_at": "2026-10-22 15:46 UTC"
+    "generated_at": "2026-10-22 15:56 UTC"
   },
   "source": {
     "name": "LiteLLM model_prices_and_context_window.json",

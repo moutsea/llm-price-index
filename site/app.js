@@ -67,9 +67,10 @@
     var out = document.getElementById("compare-out");
 
     function money(n) {
-      if (n === null || n === undefined || isNaN(n)) return "—";
+      if (n === null || n === undefined || isNaN(n) || !isFinite(n)) return "—";
       if (n === 0) return "$0.00";
-      if (n < 0.01) return "$" + n.toFixed(4);
+      // Below a cent, fixed decimals would round the answer to zero.
+      if (n < 0.01) return "$" + parseFloat(n.toPrecision(2)).toString();
       if (n < 1) return "$" + n.toFixed(3);
       return "$" + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
@@ -79,7 +80,6 @@
       if (!value) { out.innerHTML = ""; return; }
       var parts = value.split("|");
       var inPrice = parseFloat(parts[0]), outPrice = parseFloat(parts[1]);
-      var label = parts[2] || "";
       var inTokens = parseFloat(inVol.value) || 0;
       var outTokens = parseFloat(outVol.value) || 0;
       var inCost = (inTokens / 1e6) * inPrice;
@@ -90,8 +90,7 @@
         '<tr><td>Output — ' + outTokens.toLocaleString() + ' tokens × ' + money(outPrice) + '/1M</td><td class="num">' + money(outCost) + "</td></tr>" +
         '<tr><td><strong>Total per request</strong></td><td class="num"><strong>' + money(inCost + outCost) + "</strong></td></tr>" +
         '<tr><td class="muted">× 1M requests</td><td class="num muted">' + money((inCost + outCost) * 1e6) + "</td></tr>" +
-        "</tbody></table></div>" +
-        '<p class="note">' + label + "</p>";
+        "</tbody></table></div>";
     }
 
     modelSelect.addEventListener("change", run);
