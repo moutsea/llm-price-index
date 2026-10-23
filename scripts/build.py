@@ -76,8 +76,11 @@ def assign_slugs(models):
 def compute_stats(index, raw_count):
     models = index["models"]
     chat = [m for m in models if m["mode"] == "chat"]
-    multi = [m for m in chat if m["provider_count"] > 1 and m["spread"]]
-    spreads = sorted(m["spread"] for m in multi)
+    # Spread statistics need at least three sellers: with two, one odd listing
+    # is half the sample and the "spread" is just that seller's opinion.
+    multi = [m for m in chat if m["provider_count"] > 1]
+    comparable = [m for m in chat if m["provider_count"] >= 3 and m["spread"]]
+    spreads = sorted(m["spread"] for m in comparable)
     priced = [m for m in models if any(
         o["input"] is not None or o["output"] is not None for o in m["offers"])]
     return {
@@ -87,6 +90,7 @@ def compute_stats(index, raw_count):
         "chat_models": len(chat),
         "providers": len(index["providers"]),
         "multi_provider": len(multi),
+        "comparable": len(comparable),
         "median_spread": round(statistics.median(spreads), 1) if spreads else 0,
         "max_spread": round(max(spreads), 1) if spreads else 0,
         "free_models": sum(1 for m in models if any(o["free"] for o in m["offers"])),

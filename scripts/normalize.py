@@ -14,6 +14,7 @@ order of magnitude.
 from __future__ import annotations
 
 import re
+import statistics
 from collections import Counter, defaultdict
 
 # Leading tokens that identify a hosting region rather than a model.
@@ -310,8 +311,7 @@ def build_index(raw: dict) -> dict:
 
         display = max(candidates.items(), key=rank)[0]
 
-        paid_in = [o["input"] for o in offers if o["input"] is not None and not o["free"]]
-        paid_out = [o["output"] for o in offers if o["output"] is not None and not o["free"]]
+        paid_in, paid_out = _mark_outliers(offers)
         in_min, in_max = (min(paid_in), max(paid_in)) if paid_in else (None, None)
         out_min, out_max = (min(paid_out), max(paid_out)) if paid_out else (None, None)
         cache_priced = any(o["cache_read"] is not None for o in offers)
@@ -353,6 +353,47 @@ def build_index(raw: dict) -> dict:
         key=lambda p: (-p["offers"], p["id"]),
     )
     return {"models": models, "providers": provider_list}
+
+
+def _mark_outliers(offers, ratio_factor=8.0, price_factor=20.0, min_sellers=3):
+    """Flag price points that do not look like the other sellers of the model.
+
+    Comparing prices alone does not work: gpt-oss-120b is genuinely sold at
+    $0.03/1M by wandb and deepinfra and at $0.15 by most others, so flagging the
+    cheap ones would delete the only useful information on the page. What an
+    anomaly actually breaks is the *shape* of the price — coralbricks lists
+    deepseek-v4.1-flash at $0.01 input but $1.20 output, an in/out ratio 30×
+    away from every other seller, and that single row was defining the site's
+    headline "40× spread". So: compare each offer's in/out ratio against the
+    median ratio, and separately catch prices an order of magnitude below the
+    median. Outliers stay in the table with a badge but are excluded from the
+    min/max statistics.
+    """
+    for offer in offers:
+        offer["outlier"] = False
+
+    paid = [o for o in offers if o["input"] and o["output"] and not o["free"]]
+    everything = ([o["input"] for o in offers if o["input"] is not None and not o["free"]],
+                  [o["output"] for o in offers if o["output"] is not None and not o["free"]])
+    if len(paid) < min_sellers:
+        return everything
+
+    med_in = statistics.median([o["input"] for o in paid])
+    med_ratio = statistics.median([o["input"] / o["output"] for o in paid])
+    if med_in <= 0 or med_ratio <= 0:
+        return everything
+
+    for offer in paid:
+        ratio = offer["input"] / offer["output"]
+        shape_bad = ratio / med_ratio > ratio_factor or med_ratio / ratio > ratio_factor
+        offer["outlier"] = bool(shape_bad or offer["input"] < med_in / price_factor)
+
+    core = [o for o in paid if not o["outlier"]]
+    if len(core) < 2:                   # everything looks odd — trust the raw data
+        for offer in offers:
+            offer["outlier"] = False
+        return everything
+    return [o["input"] for o in core], [o["output"] for o in core]
 
 
 def _dedupe_offers(offers):

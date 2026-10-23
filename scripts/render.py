@@ -151,9 +151,15 @@ def offer_rows(model, cfg, link_provider=True):
         prov_html = (f'<a href="{cfg["asset_prefix"]}p/{pid}.html">{esc(provider)}</a>'
                      if link_provider else esc(provider))
         marker = ""
+        if offer.get("outlier"):
+            # Keep the row visible — hiding a listing would look like we quietly
+            # dropped a cheap offer — but say plainly that we do not trust it.
+            marker += (' <span class="chip badge-outlier" title="This listing does not '
+                       'match the pricing shape other sellers use for this model, so it is '
+                       'left out of the spread figures above.">unverified</span>')
         if reference and offer["input"] is not None and reference.get("input"):
             if offer["input"] <= reference["input"] * 1.001:
-                marker = ' <span class="chip badge-fp">list price</span>'
+                marker += ' <span class="chip badge-fp">list price</span>'
         rows.append(
             "<tr>"
             f'<td>{prov_html}{marker}</td>'
@@ -184,7 +190,7 @@ def render_index(models, providers, stats, cfg):
     paid = [m for m in chat if m["in_min"] is not None]
     cheapest = sorted(paid, key=lambda m: (m["in_min"], m["out_min"] or 0))[:40]
     spreads = sorted(
-        (m for m in chat if m["spread"] and m["provider_count"] > 1),
+        (m for m in chat if m["spread"] and m["provider_count"] >= 3),
         key=lambda m: -m["spread"],
     )[:40]
     widely = sorted(

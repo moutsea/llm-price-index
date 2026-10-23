@@ -195,6 +195,7 @@ td.num, th.num {
 }
 
 .badge-fp { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.badge-outlier { color: var(--muted); border-style: dashed; }
 
 .search {
   width: 100%;
