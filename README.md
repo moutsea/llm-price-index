@@ -14,12 +14,12 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-10-23 11:34 UTC_
+_Last rebuilt: 2026-10-24 10:54 UTC_
 
 | | |
 |---|---|
-| Price points | **2,893** |
-| Model families | **1,465** (1,232 chat) |
+| Price points | **2,894** |
+| Model families | **1,466** (1,233 chat) |
 | Providers | **108** |
 | Comparable across providers | **380** |
 | Median price spread | **1.6×** |
