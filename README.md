@@ -14,14 +14,14 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-10-26 12:56 UTC_
+_Last rebuilt: 2026-10-27 12:06 UTC_
 
 | | |
 |---|---|
-| Price points | **2,940** |
-| Model families | **1,471** (1,238 chat) |
-| Providers | **109** |
-| Comparable across providers | **388** |
+| Price points | **2,954** |
+| Model families | **1,480** (1,245 chat) |
+| Providers | **111** |
+| Comparable across providers | **389** |
 | Median price spread | **1.6×** |
 | Widest spread | **40.8×** |
 
@@ -29,7 +29,6 @@ _Last rebuilt: 2026-10-26 12:56 UTC_
 
 | Model | Vendor | Sellers | Cheapest input /1M | Priciest input /1M | Spread |
 |---|---|---:|---:|---:|---:|
-| [deepseek-v4.1-flash-fast](https://moutsea.github.io/llm-price-index/m/deepseek-v4-1-flash-fast.html) | DeepSeek | 2 | $0.010 | $0.600 | **60.0×** |
 | [llama-3.2-11b-vision-instruct](https://moutsea.github.io/llm-price-index/m/llama-3-2-11b-vision-instruct.html) | Meta | 4 | $0.049 | $2.00 | **40.8×** |
 | [llama-3.1-8b-instruct](https://moutsea.github.io/llm-price-index/m/llama-3-1-8b-instruct.html) | Meta | 6 | $0.020 | $0.720 | **36.0×** |
 | [qwen3-235b-a22b-instruct-2507](https://moutsea.github.io/llm-price-index/m/qwen3-235b-a22b-instruct-2507.html) | Alibaba | 7 | $0.090 | $3.00 | **33.3×** |
@@ -44,6 +43,7 @@ _Last rebuilt: 2026-10-26 12:56 UTC_
 | [llama-4-scout-17b-16e-instruct](https://moutsea.github.io/llm-price-index/m/llama-4-scout-17b-16e-instruct.html) | Meta | 8 | $0.050 | $0.720 | **14.4×** |
 | [llama-4-maverick-17b-128e-instruct-fp8](https://moutsea.github.io/llm-price-index/m/llama-4-maverick-17b-128e-instruct-fp8.html) | Meta | 6 | $0.050 | $0.720 | **14.4×** |
 | [gpt-oss-20b](https://moutsea.github.io/llm-price-index/m/gpt-oss-20b.html) | OpenAI | 15 | $0.015 | $0.200 | **13.8×** |
+| [mistral-7b-instruct-v0.1](https://moutsea.github.io/llm-price-index/m/mistral-7b-instruct-v0-1.html) | Mistral | 4 | $0.150 | $1.92 | **12.8×** |
 <!-- END DATA -->
 
 ## Why this exists
