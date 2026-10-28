@@ -14,13 +14,13 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-10-27 12:06 UTC_
+_Last rebuilt: 2026-10-28 12:48 UTC_
 
 | | |
 |---|---|
-| Price points | **2,954** |
-| Model families | **1,480** (1,245 chat) |
-| Providers | **111** |
+| Price points | **2,976** |
+| Model families | **1,489** (1,254 chat) |
+| Providers | **112** |
 | Comparable across providers | **389** |
 | Median price spread | **1.6×** |
 | Widest spread | **40.8×** |
@@ -32,7 +32,7 @@ _Last rebuilt: 2026-10-27 12:06 UTC_
 | [llama-3.2-11b-vision-instruct](https://moutsea.github.io/llm-price-index/m/llama-3-2-11b-vision-instruct.html) | Meta | 4 | $0.049 | $2.00 | **40.8×** |
 | [llama-3.1-8b-instruct](https://moutsea.github.io/llm-price-index/m/llama-3-1-8b-instruct.html) | Meta | 6 | $0.020 | $0.720 | **36.0×** |
 | [qwen3-235b-a22b-instruct-2507](https://moutsea.github.io/llm-price-index/m/qwen3-235b-a22b-instruct-2507.html) | Alibaba | 7 | $0.090 | $3.00 | **33.3×** |
-| [gpt-oss-120b](https://moutsea.github.io/llm-price-index/m/gpt-oss-120b.html) | OpenAI | 23 | $0.030 | $0.800 | **26.7×** |
+| [gpt-oss-120b](https://moutsea.github.io/llm-price-index/m/gpt-oss-120b.html) | OpenAI | 24 | $0.030 | $0.800 | **26.7×** |
 | [deepseek-r1-distill-qwen-14b](https://moutsea.github.io/llm-price-index/m/deepseek-r1-distill-qwen-14b.html) | DeepSeek | 4 | $0.070 | $1.60 | **22.9×** |
 | [meta-llama-3.1-70b-instruct](https://moutsea.github.io/llm-price-index/m/meta-llama-3-1-70b-instruct.html) | Meta | 5 | $0.120 | $2.68 | **22.3×** |
 | [mistral-small-24b-instruct-2501](https://moutsea.github.io/llm-price-index/m/mistral-small-24b-instruct-2501.html) | Mistral | 3 | $0.050 | $0.900 | **18.0×** |
