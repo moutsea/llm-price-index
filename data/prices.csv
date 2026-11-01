@@ -1341,7 +1341,7 @@ qwen3.5-122b-a10b,alibaba,chat,novita,0.4,3.2,,,262144,0,0,novita/qwen/qwen3.5-1
 qwen3.8-2.4t-a95b,alibaba,chat,aihubmix,2,6,0.5,,1010000,0,0,aihubmix/qwen3.8-2.4t-a95b
 qwen3.8-2.4t-a95b,alibaba,chat,deepinfra,2,6,0.2,,1010000,0,0,deepinfra/Qwen/Qwen3.8-2.4T-A95B
 qwen3.8-2.4t-a95b,alibaba,chat,streamlake,2,6,0.25,2.5,1010000,0,0,streamlake/qwen3.8-2.4t-a95b
-qwen3.8-2.4t-a95b,alibaba,chat,together_ai,2,6,0.25,,1010000,0,0,together_ai/Qwen/Qwen3.8-2.4T-A95B
+qwen3.8-2.4t-a95b,alibaba,chat,together_ai,2,6,0.25,,1010000,0,1,together_ai/Qwen/Qwen3.8-2.4T-A95B
 step-3.7-flash,other,chat,deepinfra,0.2,1.15,0.04,,262144,0,0,deepinfra/stepfun-ai/Step-3.7-Flash
 step-3.7-flash,other,chat,novita,0.2,1.15,0.04,,262144,0,0,novita/stepfun/step-3.7-flash
 step-3.7-flash,other,chat,aihubmix,0.22,1.32,0.044,,262144,0,0,aihubmix/step-3.7-flash
@@ -2269,6 +2269,7 @@ gpt-5.6-luna-pro,openai,chat,kyma,0.2703,1.621,0.027,,1050000,0,0,kyma/gpt-5.6-l
 gpt-5.6-sol-disc,openai,chat,aihubmix,4,20,0.4,5,1050000,0,0,aihubmix/gpt-5.6-sol-disc
 gpt-5.6-sol-pro,openai,chat,kyma,5.4,27,0.675,,1050000,0,0,kyma/gpt-5.6-sol-pro
 gpt-5.6-terra-pro,openai,chat,kyma,2.7,16.2,0.27,,1050000,0,0,kyma/gpt-5.6-terra-pro
+gpt-6-astra-law,openai,chat,openai,10,50,1,,922000,0,0,gpt-6-astra-law
 gpt-6-rosalind,openai,chat,openai,15,75,1.5,18.75,922000,0,0,gpt-6-rosalind
 gpt-daybreak-blue,openai,chat,openai,4,20,0.4,5,922000,0,0,gpt-daybreak-blue-latest
 gpt-daybreak-blue-5.6-sol,openai,chat,bedrock_mantle,4.4,22,0.44,5.5,1050000,0,0,bedrock_mantle/openai.gpt-daybreak-blue-5.6-sol
