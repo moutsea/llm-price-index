@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-03 14:07 UTC",
+  "generated_at": "2026-11-04 14:28 UTC",
   "stats": {
-    "raw_entries": 4561,
-    "price_points": 3170,
-    "models": 1527,
-    "chat_models": 1283,
-    "providers": 120,
-    "multi_provider": 399,
-    "comparable": 230,
+    "raw_entries": 4526,
+    "price_points": 3141,
+    "models": 1509,
+    "chat_models": 1268,
+    "providers": 121,
+    "multi_provider": 390,
+    "comparable": 226,
     "median_spread": 1.7,
     "max_spread": 40.8,
-    "free_models": 130,
-    "priced_models": 1527,
-    "generated_at": "2026-11-03 14:07 UTC"
+    "free_models": 127,
+    "priced_models": 1509,
+    "generated_at": "2026-11-04 14:28 UTC"
   },
   "source": {
     "name": "LiteLLM model_prices_and_context_window.json",
