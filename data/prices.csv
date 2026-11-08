@@ -935,13 +935,13 @@ qwen3.6-27b,alibaba,chat,novita,0.6,3.6,,,262144,0,0,novita/qwen/qwen3.6-27b
 qwen3.6-27b,alibaba,chat,streamlake,0.6,3.6,,,262144,0,0,streamlake/qwen3.6-27b
 qwen3.6-27b,alibaba,chat,wandb,0.6,3.6,0.12,,262144,0,1,wandb/Qwen/Qwen3.6-27B
 qwen3.7-max,alibaba,chat,novita,1.25,3.75,0.25,,1000000,0,0,novita/qwen/qwen3.7-max
-qwen3.7-max,alibaba,chat,together_ai,1.5,4.5,0.3,,1000000,0,0,together_ai/Qwen/Qwen3.7-Max
 qwen3.7-max,alibaba,chat,dashscope,2.5,7.5,0.5,3.125,1000000,0,0,dashscope/qwen3.7-max
 qwen3.7-max,alibaba,chat,deepinfra,2.5,7.5,0.5,,1000000,0,0,deepinfra/Qwen/Qwen3.7-Max
 qwen3.7-max,alibaba,chat,empiriolabs,2.5,7.5,,,1000000,0,0,empiriolabs/qwen3-7-max
 qwen3.7-max,alibaba,chat,gmi,2.5,7.5,0.25,,1000000,0,0,gmi/Qwen/Qwen3.7-Max
 qwen3.7-max,alibaba,chat,qwen_ai_platform,2.5,7.5,0.5,3.125,1000000,0,0,qwen_ai_platform/qwen3.7-max
 qwen3.7-max,alibaba,chat,qwencloud,2.5,7.5,0.5,3.125,1000000,0,0,qwencloud/qwen3.7-max
+qwen3.7-max,alibaba,chat,together_ai,2.5,7.5,0.5,,1000000,0,0,together_ai/Qwen/Qwen3.7-Max
 deepseek-v3.2,deepseek,chat,deepinfra,0.26,0.38,0.13,,163840,0,0,deepinfra/deepseek-ai/DeepSeek-V3.2
 deepseek-v3.2,deepseek,chat,novita,0.269,0.4,0.1345,,163840,0,0,novita/deepseek/deepseek-v3.2
 deepseek-v3.2,deepseek,chat,deepseek,0.28,0.4,0.028,,163840,0,0,deepseek/deepseek-v3.2
@@ -1515,8 +1515,8 @@ claude-mythos-preview,anthropic,chat,bedrock_converse,27.5,137.5,2.75,34.375,100
 claude-opus-4-1,anthropic,chat,bedrock_converse,15,75,1.5,18.75,200000,0,1,anthropic.claude-opus-4-1-20250805-v1:0
 claude-opus-4-1,anthropic,chat,vercel_ai_gateway,15,75,1.5,18.75,200000,0,0,vercel_ai_gateway/anthropic/claude-opus-4.1
 claude-opus-4-1,anthropic,chat,databricks,15,75.0001,1.50003,18.75,200000,0,0,databricks/databricks-claude-opus-4-1
-codestral-2405,mistral,chat,codestral,0,0,,,128000,1,0,codestral/codestral-2405
-codestral-2405,mistral,chat,text-completion-codestral,0,0,,,128000,1,0,text-completion-codestral/codestral-2405
+codestral-2405,mistral,chat,codestral,0,0,,,128000,1,1,codestral/codestral-2405
+codestral-2405,mistral,chat,text-completion-codestral,0,0,,,128000,1,1,text-completion-codestral/codestral-2405
 codestral-2405,mistral,chat,vertex_ai-mistral_models,0.2,0.6,,,128000,0,0,vertex_ai/codestral@2405
 deepseek-r1-distill-llama-8b,deepseek,chat,nscale,0.025,0.025,,,131072,0,0,nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B
 deepseek-r1-distill-llama-8b,deepseek,chat,gmi,0.14,0.39,,,131072,0,0,gmi/deepseek-ai/DeepSeek-R1-Distill-Llama-8B
@@ -2535,6 +2535,7 @@ kimi-k2p7-code-fast,moonshot,chat,fireworks_ai,1.9,8,0.38,,262144,0,1,fireworks_
 kimi-k3-fast,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-fast
 kimi-k3-spot,moonshot,chat,fireworks_ai,2.1,10.5,0.21,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/kimi-k3-spot
 kimi-k3-us,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-us
+kimi-k3.1-pro-highspeed,moonshot,chat,moonshot,4,20,0.2,4,1048576,0,0,moonshot/kimi-k3.1-pro-highspeed
 kimi-k3p1-pro,moonshot,chat,fireworks_ai,2,10,0.2,,1048576,0,0,fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro
 l3-70b-euryale-v2.1,other,chat,novita,1.48,1.48,,,8192,0,0,novita/sao10k/l3-70b-euryale-v2.1
 l3-8b-lunaris,other,chat,novita,0.05,0.05,,,8192,0,0,novita/sao10k/l3-8b-lunaris
@@ -2963,6 +2964,7 @@ qwen3p7-plus,alibaba,chat,fireworks_ai,0.4,1.6,0.08,,262144,0,0,fireworks_ai/qwe
 qwen3p8-max,alibaba,chat,fireworks_ai,2,6,0.25,,262144,0,0,fireworks_ai/qwen3p8-max
 r1,other,chat,bedrock_converse,1.35,5.4,,,128000,0,1,us.deepseek.r1-v1:0
 r1v4-lite,other,chat,novita,0.2,0.6,,,262144,0,0,novita/skywork/r1v4-lite
+rnj-1-instruct,other,chat,together_ai,0.15,0.15,,,,0,0,together_ai/essentialai/rnj-1-instruct
 rolm-ocr,other,chat,fireworks_ai,0.2,0.2,,,128000,0,0,fireworks_ai/accounts/fireworks/models/rolm-ocr
 salamandra-7b-instruct-tools-16k,other,chat,publicai,0,0,,,16384,1,0,publicai/BSC-LT/salamandra-7b-instruct-tools-16k
 sarvam-m,other,chat,sarvam,0,0,0,0,8192,1,0,sarvam/sarvam-m
