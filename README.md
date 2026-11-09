@@ -14,7 +14,7 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-11-08 13:19 UTC_
+_Last rebuilt: 2026-11-09 16:11 UTC_
 
 | | |
 |---|---|
