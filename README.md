@@ -14,12 +14,12 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-11-11 14:15 UTC_
+_Last rebuilt: 2026-11-12 15:08 UTC_
 
 | | |
 |---|---|
-| Price points | **3,472** |
-| Model families | **1,633** (1,368 chat) |
+| Price points | **3,475** |
+| Model families | **1,635** (1,369 chat) |
 | Providers | **122** |
 | Comparable across providers | **414** |
 | Median price spread | **1.7×** |
@@ -35,7 +35,6 @@ _Last rebuilt: 2026-11-11 14:15 UTC_
 | [gpt-oss-120b](https://moutsea.github.io/llm-price-index/m/gpt-oss-120b.html) | OpenAI | 27 | $0.030 | $0.800 | **26.7×** |
 | [mistral-small-24b-instruct-2501](https://moutsea.github.io/llm-price-index/m/mistral-small-24b-instruct-2501.html) | Mistral | 3 | $0.050 | $0.900 | **18.0×** |
 | [mistral-large](https://moutsea.github.io/llm-price-index/m/mistral-large.html) | Mistral | 6 | $0.500 | $8.00 | **16.0×** |
-| [mistral-nemo-instruct-2407](https://moutsea.github.io/llm-price-index/m/mistral-nemo-instruct-2407.html) | Mistral | 5 | $0.019 | $0.300 | **15.8×** |
 | [deepseek-r1-0528](https://moutsea.github.io/llm-price-index/m/deepseek-r1-0528.html) | DeepSeek | 9 | $0.200 | $3.00 | **15.0×** |
 | [qwen2.5-coder-32b-instruct](https://moutsea.github.io/llm-price-index/m/qwen2-5-coder-32b-instruct.html) | Alibaba | 4 | $0.060 | $0.870 | **14.5×** |
 | [llama-4-scout-17b-16e-instruct](https://moutsea.github.io/llm-price-index/m/llama-4-scout-17b-16e-instruct.html) | Meta | 9 | $0.050 | $0.720 | **14.4×** |
@@ -44,6 +43,7 @@ _Last rebuilt: 2026-11-11 14:15 UTC_
 | [mistral-7b-instruct-v0.1](https://moutsea.github.io/llm-price-index/m/mistral-7b-instruct-v0-1.html) | Mistral | 3 | $0.150 | $1.92 | **12.8×** |
 | [llama3-2-3b-instruct](https://moutsea.github.io/llm-price-index/m/llama3-2-3b-instruct.html) | Meta | 2 | $0.015 | $0.190 | **12.7×** |
 | [deepseek-r1](https://moutsea.github.io/llm-price-index/m/deepseek-r1.html) | DeepSeek | 14 | $0.400 | $5.00 | **12.5×** |
+| [deepseek-v3.1](https://moutsea.github.io/llm-price-index/m/deepseek-v3-1.html) | DeepSeek | 11 | $0.250 | $3.00 | **12.0×** |
 <!-- END DATA -->
 
 ## Why this exists

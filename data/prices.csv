@@ -325,7 +325,6 @@ claude-sonnet-5,anthropic,chat,anthropic,2,10,0.2,2.5,1000000,0,0,claude-sonnet-
 claude-sonnet-5,anthropic,chat,azure_ai,2,10,0.2,2.5,1000000,0,1,azure_ai/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,bedrock,2,10,0.2,2.5,1000000,0,0,bedrock/claude_platform/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,bedrock_converse,2,10,0.2,2.5,1000000,0,0,anthropic.claude-sonnet-5
-claude-sonnet-5,anthropic,chat,deepinfra,2,10,,,1000000,0,0,deepinfra/anthropic/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,github_copilot,2,10,0.2,2.5,1000000,0,0,github_copilot/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,perplexity,2,10,0.2,,1000000,0,0,perplexity/anthropic/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,replicate,2,10,,,1000000,0,0,replicate/anthropic/claude-sonnet-5
@@ -335,6 +334,7 @@ claude-sonnet-5,anthropic,chat,bedrock,2.4,12,0.24,3,1000000,0,0,bedrock/us-gov-
 claude-sonnet-5,anthropic,chat,bedrock_converse,2.4,12,0.24,3,1000000,0,0,us-gov.anthropic.claude-sonnet-5
 claude-sonnet-5,anthropic,chat,hostinger_router,2.64,13.2,0.264,3.3,1000000,0,0,hostinger_router/claude-sonnet-5
 claude-sonnet-5,anthropic,chat,kyma,2.7,13.5,0.27,,1000000,0,0,kyma/claude-sonnet-5
+claude-sonnet-5,anthropic,chat,deepinfra,3,15,,,1000000,0,0,deepinfra/anthropic/claude-sonnet-5
 gemma-4-31b-it,google,chat,gemini,0,0,,,262144,1,0,gemini/gemma-4-31b-it
 gemma-4-31b-it,google,chat,wandb,0.1,0.34,,,262144,0,0,wandb/google/gemma-4-31B-it
 gemma-4-31b-it,google,chat,aihubmix,0.14,0.39998,,,262144,0,0,aihubmix/gemma-4-31b-it
@@ -858,10 +858,10 @@ claude-fable-5-2,anthropic,chat,anthropic,8,40,0.2,10,1000000,0,0,claude-fable-5
 claude-fable-5-2,anthropic,chat,azure_ai,8,40,0.2,10,1000000,0,0,azure_ai/claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock,8,40,0.2,10,1000000,0,0,bedrock/claude_platform/claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock_converse,8,40,0.2,10,1000000,0,0,anthropic.claude-fable-5-2
-claude-fable-5-2,anthropic,chat,databricks,8,40,8,8,1000000,0,0,databricks/databricks-claude-fable-5-2
 claude-fable-5-2,anthropic,chat,github_copilot,8,40,0.2,10,1000000,0,0,github_copilot/claude-fable-5.2
 claude-fable-5-2,anthropic,chat,replicate,8,40,,,1000000,0,0,replicate/anthropic/claude-fable-5.2
 claude-fable-5-2,anthropic,chat,vertex_ai-anthropic_models,8,40,0.2,10,1000000,0,1,vertex_ai/claude-fable-5-2
+claude-fable-5-2,anthropic,chat,databricks,8.00002,40,0.19999,9.99999,1000000,0,0,databricks/databricks-claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock_converse,8.8,44,0.22,11,1000000,0,0,eu.anthropic.claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock,9.6,48,0.24,12,1000000,0,0,bedrock/us-gov-west-1/anthropic.claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock_converse,9.6,48,0.24,12,1000000,0,0,us-gov.anthropic.claude-fable-5-2
@@ -1214,6 +1214,11 @@ gemini-3.1-flash-lite,google,chat,gemini,0.25,1.5,0.025,,1048576,0,1,gemini/gemi
 gemini-3.1-flash-lite,google,chat,perplexity,0.25,1.5,0.025,,1048576,0,0,perplexity/google/gemini-3.1-flash-lite
 gemini-3.1-flash-lite,google,chat,vertex_ai-language-models,0.25,1.5,0.025,,1048576,0,0,gemini-3.1-flash-lite
 gemini-3.1-flash-lite,google,chat,databricks,0.31248,1.87502,0.03122,0.31248,1048576,0,0,databricks/databricks-gemini-3-1-flash-lite
+gemini-4-carbon,google,chat,databricks,2,10,2,2,1048576,0,0,databricks/databricks-gemini-4-carbon
+gemini-4-carbon,google,chat,gemini,2,10,0.1,,1048576,0,0,gemini/gemini-4-carbon
+gemini-4-carbon,google,chat,github_copilot,2,10,0.1,,1048576,0,0,github_copilot/gemini-4-carbon
+gemini-4-carbon,google,chat,replicate,2,10,,,1048576,0,0,replicate/google/gemini-4-carbon
+gemini-4-carbon,google,chat,vertex_ai,2,10,0.1,,1048576,0,0,vertex_ai/gemini-4-carbon
 glm-4.5-air,zhipu,chat,pinstripes,0.125,0.45,,,131072,0,0,pinstripes/ps/glm-4.5-air
 glm-4.5-air,zhipu,chat,novita,0.13,0.85,0.025,,131072,0,0,novita/zai-org/glm-4.5-air
 glm-4.5-air,zhipu,chat,kyma,0.1797,1.175,0.03375,,131072,0,0,kyma/glm-4.5-air
@@ -1318,7 +1323,7 @@ minimax-m2.1,minimax,chat,minimax,0.3,1.2,0.03,0.375,1000000,0,0,minimax/MiniMax
 minimax-m2.1,minimax,chat,novita,0.3,1.2,0.03,,1000000,0,0,novita/minimax/minimax-m2.1
 minimax-m2.1,minimax,chat,bedrock,0.36,1.44,,,1000000,0,1,bedrock/ap-northeast-1/minimax.minimax-m2.1
 minimax-m2.1,minimax,chat,bedrock,0.47,1.86,,,1000000,0,1,bedrock/eu-west-2/minimax.minimax-m2.1
-mistral-nemo-instruct-2407,mistral,chat,deepinfra,0.019,0.03,,,131072,0,0,deepinfra/mistralai/Mistral-Nemo-Instruct-2407
+mistral-nemo-instruct-2407,mistral,chat,deepinfra,0.029,0.03,,,131072,0,0,deepinfra/mistralai/Mistral-Nemo-Instruct-2407
 mistral-nemo-instruct-2407,mistral,chat,nebius,0.04,0.12,,,131072,0,0,nebius/mistralai/Mistral-Nemo-Instruct-2407
 mistral-nemo-instruct-2407,mistral,chat,ovhcloud,0.13,0.13,,,131072,0,0,ovhcloud/Mistral-Nemo-Instruct-2407
 mistral-nemo-instruct-2407,mistral,chat,fireworks_ai,0.2,0.2,,,131072,0,0,fireworks_ai/accounts/fireworks/models/mistral-nemo-instruct-2407
@@ -1399,10 +1404,6 @@ gemini-3.1-pro-preview-customtools,google,chat,aihubmix,2,12,0.2,,1048576,0,0,ai
 gemini-3.1-pro-preview-customtools,google,chat,gemini,2,12,0.2,,1048576,0,0,gemini/gemini-3.1-pro-preview-customtools
 gemini-3.1-pro-preview-customtools,google,chat,vertex_ai,2,12,0.2,,1048576,0,0,vertex_ai/gemini-3.1-pro-preview-customtools
 gemini-3.1-pro-preview-customtools,google,chat,vertex_ai-language-models,2,12,0.2,,1048576,0,0,gemini-3.1-pro-preview-customtools
-gemini-4-carbon,google,chat,gemini,2,10,0.1,,1048576,0,0,gemini/gemini-4-carbon
-gemini-4-carbon,google,chat,github_copilot,2,10,0.1,,1048576,0,0,github_copilot/gemini-4-carbon
-gemini-4-carbon,google,chat,replicate,2,10,,,1048576,0,0,replicate/google/gemini-4-carbon
-gemini-4-carbon,google,chat,vertex_ai,2,10,0.1,,1048576,0,0,vertex_ai/gemini-4-carbon
 gemma-3-12b-it,google,chat,deepinfra,0.05,0.15,,,131072,0,0,deepinfra/google/gemma-3-12b-it
 gemma-3-12b-it,google,chat,novita,0.05,0.1,,,131072,0,0,novita/google/gemma-3-12b-it
 gemma-3-12b-it,google,chat,bedrock_converse,0.09,0.29,,,131072,0,1,google.gemma-3-12b-it
@@ -2882,7 +2883,7 @@ nova-micro-1-0,amazon,chat,empiriolabs,0.04,0.16,0.0224,,133003,0,0,empiriolabs/
 nova-pro-1-0,amazon,chat,empiriolabs,2.4,9.6,,,317319,0,0,empiriolabs/nova-pro-1-0
 nvidia-nemotron-3-nano-30b-a3b,other,chat,nebius,0.06,0.24,0.012,,262144,0,0,nebius/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
 nvidia-nemotron-3-super-120b-a12b,other,chat,deepinfra,0.075,0.4,,,262144,0,0,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B
-nvidia-nemotron-3.5-lightning,other,chat,deepinfra,0.08,0.2,0.04,,262144,0,0,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning
+nvidia-nemotron-3.5-lightning,other,chat,deepinfra,0.06,0.16,0.04,,262144,0,0,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning
 nvidia-nemotron-3.5-lightning-30b-a3b,other,chat,wandb,0.07,0.2,0.04,,262000,0,0,wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B
 nvidia-nemotron-3.5-lightning-30b-a3b-bf16,other,chat,gmi,0.15,1,0.05,,65536,0,0,gmi/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16
 nvidia-nemotron-3.5-super-vl,other,chat,together_ai,0.15,0.5,0.02,,262144,0,0,together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL
@@ -3071,7 +3072,8 @@ summarize,other,chat,scaledown,0.05,0,,,,0,0,scaledown/summarize
 swe-1.6,other,chat,cognition,0.5,2.5,0.2,,,0,0,cognition/swe-1.6
 swe-1.7,other,chat,cognition,0.5,2.5,0.2,,,0,0,cognition/swe-1.7
 swe-1.7-lightning,other,chat,cognition,2.5,12.5,1,,,0,0,cognition/swe-1.7-lightning
-system.ai.claude-fable-5-2,other,chat,databricks,8,40,8,8,1000000,0,0,databricks/system.ai.claude-fable-5-2
+system.ai.claude-fable-5-2,other,chat,databricks,8.00002,40,0.19999,9.99999,1000000,0,0,databricks/system.ai.claude-fable-5-2
+system.ai.gemini-4-carbon,other,chat,databricks,2,10,2,2,1048576,0,0,databricks/system.ai.gemini-4-carbon
 ternary-bonsai-27b,other,chat,together_ai,0,0,,,262144,1,0,together_ai/Prism-ML/Ternary-Bonsai-27B
 tev1-4b-experimental,other,chat,together_ai,0.042,0,,,32768,0,0,together_ai/together/Tev1-4B-experimental
 text-unicorn,other,chat,vertex_ai-text-models,10,28,,,8192,0,0,text-unicorn
@@ -3331,6 +3333,7 @@ gemini-3.1-flash-tts,google,audio_speech,replicate,2,40,,,,0,0,replicate/google/
 gemini-3.5-transcribe-live-preview,google,audio_transcription,vertex_ai,3.5,21,,,,0,0,vertex_ai/gemini-3.5-transcribe-live-preview
 gemini-3.5-transcribe-preview,google,audio_transcription,vertex_ai,2,12,,,,0,0,vertex_ai/gemini-3.5-transcribe-preview
 gemini-3.8-live-extended-thinking,google,realtime,gemini,0.75,4.5,,,131072,0,0,gemini-3.8-live-extended-thinking
+gemini-decision-1,google,decisions,gemini,0.1,0,,,262144,0,0,gemini/gemini-decision-1
 gemini-flash-experimental,google,embedding,vertex_ai-language-models,0,0,,,1000000,1,0,gemini-flash-experimental
 gemini-live-2.5-flash-native-audio,google,realtime,vertex_ai-language-models,0.5,2,,,131072,0,1,gemini-live-2.5-flash-native-audio
 gigaembeddings-3b-2025-09,other,embedding,gigachat,0,0,,,4096,1,0,gigachat/GigaEmbeddings-3B-2025-09
