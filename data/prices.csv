@@ -86,6 +86,7 @@ glm-5.3-flash,zhipu,chat,bigmodel,0.114286,0.4,0.032857,,1310720,0,0,bigmodel/gl
 glm-5.3-flash,zhipu,chat,wandb,0.12,0.38,0.02,,1310720,0,0,wandb/zai-org/GLM-5.3-Flash
 glm-5.3-flash,zhipu,chat,aiand,0.15,0.5,0.03,,1310720,0,0,aiand/zai-org/glm-5.3-flash
 glm-5.3-flash,zhipu,chat,baseten,0.15,0.5,0.03,,1310720,0,0,baseten/zai-org/GLM-5.3-Flash
+glm-5.3-flash,zhipu,chat,deepinfra,0.15,0.5,0.03,,1310720,0,0,deepinfra/zai-org/GLM-5.3-Flash
 glm-5.3-flash,zhipu,chat,friendliai,0.15,0.5,0.03,,1310720,0,0,friendliai/zai-org/GLM-5.3-Flash
 glm-5.3-flash,zhipu,chat,nebius,0.15,0.5,0.03,,1310720,0,0,nebius/zai-org/GLM-5.3-Flash
 glm-5.3-flash,zhipu,chat,opencode_go,0.15,0.5,0.03,,1310720,0,0,opencode_go/glm-5.3-flash
@@ -1058,6 +1059,13 @@ llama-4-maverick-17b-128e-instruct-fp8,meta,chat,gmi,0.25,0.8,,,1048576,0,0,gmi/
 llama-4-maverick-17b-128e-instruct-fp8,meta,chat,novita,0.27,0.85,,,1048576,0,0,novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8
 llama-4-maverick-17b-128e-instruct-fp8,meta,chat,watsonx,0.371,1.484,,,1048576,0,0,watsonx/meta-llama/llama-4-maverick-17b-128e-instruct-fp8
 llama-4-maverick-17b-128e-instruct-fp8,meta,chat,oci,0.72,0.72,,,1048576,0,0,oci/meta.llama-4-maverick-17b-128e-instruct-fp8
+mimo-v2.6-flash,xiaomi,chat,gmi,0.112,0.224,0.00224,,1050000,0,0,gmi/XiaomiMiMo/MiMo-V2.6-Flash
+mimo-v2.6-flash,xiaomi,chat,deepinfra,0.14,0.28,0.0028,,1050000,0,0,deepinfra/XiaomiMiMo/MiMo-V2.6-Flash
+mimo-v2.6-flash,xiaomi,chat,empiriolabs,0.14,0.28,,,1050000,0,0,empiriolabs/mimo-v2-6-flash
+mimo-v2.6-flash,xiaomi,chat,opencode_go,0.14,0.28,0.0028,,1050000,0,0,opencode_go/mimo-v2.6-flash
+mimo-v2.6-flash,xiaomi,chat,streamlake,0.14,0.28,0.0028,,1050000,0,0,streamlake/mimo-v2.6-flash
+mimo-v2.6-flash,xiaomi,chat,xiaomi_mimo,0.14,0.28,0.0028,,1050000,0,0,xiaomi_mimo/mimo-v2.6-flash
+mimo-v2.6-flash,xiaomi,chat,kyma,0.189,0.378,,,1050000,0,0,kyma/mimo-v2.6-flash
 qwen3-235b-a22b-instruct-2507,alibaba,chat,deepinfra,0.09,0.55,,,262144,0,0,deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507
 qwen3-235b-a22b-instruct-2507,alibaba,chat,novita,0.09,0.58,,,262144,0,0,novita/qwen/qwen3-235b-a22b-instruct-2507
 qwen3-235b-a22b-instruct-2507,alibaba,chat,nebius,0.2,0.6,0.05,,262144,0,0,nebius/Qwen/Qwen3-235B-A22B-Instruct-2507
@@ -1065,8 +1073,8 @@ qwen3-235b-a22b-instruct-2507,alibaba,chat,fireworks_ai,0.22,0.88,,,262144,0,0,f
 qwen3-235b-a22b-instruct-2507,alibaba,chat,replicate,0.264,1.06,,,262144,0,0,replicate/qwen/qwen3-235b-a22b-instruct-2507
 qwen3-235b-a22b-instruct-2507,alibaba,chat,scaleway,0.75,2.25,,,262144,0,0,scaleway/qwen/qwen3-235b-a22b-instruct-2507
 qwen3-235b-a22b-instruct-2507,alibaba,chat,crusoe,3,3,,,262144,0,0,crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507
-claude-3-7-sonnet,anthropic,chat,bedrock,3,15,0.3,3.75,200000,0,0,eu.anthropic.claude-3-7-sonnet-20250219-v1:0
-claude-3-7-sonnet,anthropic,chat,bedrock_converse,3,15,0.3,3.75,200000,0,0,anthropic.claude-3-7-sonnet-20250219-v1:0
+claude-3-7-sonnet,anthropic,chat,bedrock,3,15,0.3,3.75,200000,0,1,eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+claude-3-7-sonnet,anthropic,chat,bedrock_converse,3,15,0.3,3.75,200000,0,1,anthropic.claude-3-7-sonnet-20250219-v1:0
 claude-3-7-sonnet,anthropic,chat,replicate,3,15,,,200000,0,0,replicate/anthropic/claude-3.7-sonnet
 claude-3-7-sonnet,anthropic,chat,snowflake,3,15,0.3,,200000,0,0,snowflake/claude-3-7-sonnet
 claude-3-7-sonnet,anthropic,chat,vercel_ai_gateway,3,15,0.3,3.75,200000,0,0,vercel_ai_gateway/anthropic/claude-3.7-sonnet
@@ -1135,6 +1143,12 @@ hy3,other,chat,novita,0.14,0.58,0.035,,262144,0,0,novita/tencent/hy3
 hy3,other,chat,opencode_go,0.14,0.58,0.035,,262144,0,0,opencode_go/hy3
 hy3,other,chat,aihubmix,0.1562,0.6248,0.03905,,262144,0,0,aihubmix/hy3
 hy3,other,chat,kyma,0.1594,0.6576,,,262144,0,0,kyma/hy3
+hy4-preview,other,chat,tencent,0.417,1.2505,0.021,,1048576,0,0,tencent/hy4-preview
+hy4-preview,other,chat,deepinfra,0.834,2.501,0.042,,1048576,0,0,deepinfra/tencent/Hy4-preview
+hy4-preview,other,chat,gmi,0.834,2.501,0.042,,1048576,0,0,gmi/tencent/hy4-preview
+hy4-preview,other,chat,opencode_go,0.834,2.501,0.042,,1048576,0,0,opencode_go/hy4-preview
+hy4-preview,other,chat,aihubmix,0.845,2.535,0.04225,,1048576,0,0,aihubmix/hy4-preview
+hy4-preview,other,chat,kyma,1.1259,3.3764,,,1048576,0,0,kyma/hy4-preview
 llama-3.1-8b-instruct,meta,chat,novita,0.02,0.05,,,131072,0,0,novita/meta-llama/llama-3.1-8b-instruct
 llama-3.1-8b-instruct,meta,chat,nscale,0.03,0.03,,,131072,0,0,nscale/meta-llama/Llama-3.1-8B-Instruct
 llama-3.1-8b-instruct,meta,chat,ovhcloud,0.1,0.1,,,131072,0,0,ovhcloud/Llama-3.1-8B-Instruct
@@ -1147,12 +1161,6 @@ llama-3.2-3b-instruct,meta,chat,cloudflare,0.0509,0.335,,,131072,0,0,cloudflare/
 llama-3.2-3b-instruct,meta,chat,together_ai,0.06,0.06,,,131072,0,0,together_ai/meta-llama/Llama-3.2-3B-Instruct
 llama-3.2-3b-instruct,meta,chat,hyperbolic,0.12,0.3,,,131072,0,0,hyperbolic/meta-llama/Llama-3.2-3B-Instruct
 llama-3.2-3b-instruct,meta,chat,watsonx,0.15,0.15,,,131072,0,0,watsonx/meta-llama/llama-3-2-3b-instruct
-mimo-v2.6-flash,xiaomi,chat,gmi,0.112,0.224,0.00224,,1050000,0,0,gmi/XiaomiMiMo/MiMo-V2.6-Flash
-mimo-v2.6-flash,xiaomi,chat,empiriolabs,0.14,0.28,,,1050000,0,0,empiriolabs/mimo-v2-6-flash
-mimo-v2.6-flash,xiaomi,chat,opencode_go,0.14,0.28,0.0028,,1050000,0,0,opencode_go/mimo-v2.6-flash
-mimo-v2.6-flash,xiaomi,chat,streamlake,0.14,0.28,0.0028,,1050000,0,0,streamlake/mimo-v2.6-flash
-mimo-v2.6-flash,xiaomi,chat,xiaomi_mimo,0.14,0.28,0.0028,,1050000,0,0,xiaomi_mimo/mimo-v2.6-flash
-mimo-v2.6-flash,xiaomi,chat,kyma,0.189,0.378,,,1050000,0,0,kyma/mimo-v2.6-flash
 mimo-v2.6-pro,xiaomi,chat,gmi,0.348,0.696,0.00288,,1050000,0,0,gmi/XiaomiMiMo/MiMo-V2.6-Pro
 mimo-v2.6-pro,xiaomi,chat,empiriolabs,0.435,0.87,,,1050000,0,0,empiriolabs/mimo-v2-6-pro
 mimo-v2.6-pro,xiaomi,chat,opencode_go,0.435,0.87,0.003625,,1050000,0,0,opencode_go/mimo-v2.6-pro
@@ -1195,7 +1203,7 @@ step-3.7-flash,other,chat,gmi,0.2,1.15,0.04,,262144,0,0,gmi/stepfun-ai/Step-3.7-
 step-3.7-flash,other,chat,novita,0.2,1.15,0.04,,262144,0,0,novita/stepfun/step-3.7-flash
 step-3.7-flash,other,chat,aihubmix,0.22,1.32,0.044,,262144,0,0,aihubmix/step-3.7-flash
 step-3.7-flash,other,chat,kyma,0.2229,1.282,0.054,,262144,0,0,kyma/step-3.7-flash
-claude-3-5-sonnet,anthropic,chat,bedrock,3,15,0.3,3.75,200000,0,0,anthropic.claude-3-5-sonnet-20240620-v1:0
+claude-3-5-sonnet,anthropic,chat,bedrock,3,15,0.3,3.75,200000,0,1,anthropic.claude-3-5-sonnet-20240620-v1:0
 claude-3-5-sonnet,anthropic,chat,snowflake,3,15,0.3,,200000,0,0,snowflake/claude-3-5-sonnet
 claude-3-5-sonnet,anthropic,chat,vercel_ai_gateway,3,15,0.3,3.75,200000,0,0,vercel_ai_gateway/anthropic/claude-3.5-sonnet
 claude-3-5-sonnet,anthropic,chat,vertex_ai-anthropic_models,3,15,,,200000,0,1,vertex_ai/claude-3-5-sonnet
@@ -1285,11 +1293,6 @@ grok-4.5,xai,chat,gmi,2,6,0.5,,2000000,0,0,gmi/x-ai/grok-4.5
 grok-4.5,xai,chat,perplexity,2,6,0.3,,2000000,0,0,perplexity/xai/grok-4.5
 grok-4.5,xai,chat,xai,2,6,0.3,,2000000,0,0,xai/grok-4.5
 grok-4.5,xai,chat,kyma,2.73,8.189,,,2000000,0,0,kyma/grok-4.5
-hy4-preview,other,chat,tencent,0.417,1.2505,0.021,,1048576,0,0,tencent/hy4-preview
-hy4-preview,other,chat,gmi,0.834,2.501,0.042,,1048576,0,0,gmi/tencent/hy4-preview
-hy4-preview,other,chat,opencode_go,0.834,2.501,0.042,,1048576,0,0,opencode_go/hy4-preview
-hy4-preview,other,chat,aihubmix,0.845,2.535,0.04225,,1048576,0,0,aihubmix/hy4-preview
-hy4-preview,other,chat,kyma,1.1259,3.3764,,,1048576,0,0,kyma/hy4-preview
 inkling,other,chat,deepinfra,0.95,4.05,0.16,,1048576,0,0,deepinfra/thinkingmachines/Inkling
 inkling,other,chat,baseten,1,4.05,0.17,,1048576,0,1,baseten/thinkingmachines/inkling
 inkling,other,chat,fireworks_ai,1,4.05,0.17,,1048576,0,1,fireworks_ai/accounts/fireworks/models/inkling
@@ -1408,6 +1411,10 @@ gemini-3.1-pro-preview-customtools,google,chat,aihubmix,2,12,0.2,,1048576,0,0,ai
 gemini-3.1-pro-preview-customtools,google,chat,gemini,2,12,0.2,,1048576,0,0,gemini/gemini-3.1-pro-preview-customtools
 gemini-3.1-pro-preview-customtools,google,chat,vertex_ai,2,12,0.2,,1048576,0,0,vertex_ai/gemini-3.1-pro-preview-customtools
 gemini-3.1-pro-preview-customtools,google,chat,vertex_ai-language-models,2,12,0.2,,1048576,0,0,gemini-3.1-pro-preview-customtools
+gemini-4-hydrogen,google,chat,gemini,1.5,7.5,0.075,,1048576,0,0,gemini/gemini-4-hydrogen
+gemini-4-hydrogen,google,chat,github_copilot,1.5,7.5,0.075,,1048576,0,0,github_copilot/gemini-4-hydrogen
+gemini-4-hydrogen,google,chat,perplexity,1.5,7.5,0.075,,1048576,0,0,perplexity/google/gemini-4-hydrogen
+gemini-4-hydrogen,google,chat,vertex_ai,1.5,7.5,0.075,,1048576,0,0,vertex_ai/gemini-4-hydrogen
 gemma-3-12b-it,google,chat,deepinfra,0.05,0.15,,,131072,0,0,deepinfra/google/gemma-3-12b-it
 gemma-3-12b-it,google,chat,novita,0.05,0.1,,,131072,0,0,novita/google/gemma-3-12b-it
 gemma-3-12b-it,google,chat,bedrock_converse,0.09,0.29,,,131072,0,1,google.gemma-3-12b-it
@@ -1825,8 +1832,6 @@ gemini-3-pro,google,chat,replicate,2,12,,,1048576,0,0,replicate/google/gemini-3-
 gemini-3-pro,google,chat,databricks,2.49998,15,0.24997,2.49998,1048576,0,0,databricks/databricks-gemini-3-pro
 gemini-3.8-flash-cyber,google,chat,vertex_ai,1.5,7.5,0.15,,1048576,0,0,vertex_ai/gemini-3.8-flash-cyber
 gemini-3.8-flash-cyber,google,chat,vertex_ai-language-models,1.5,7.5,0.15,,1048576,0,0,gemini-3.8-flash-cyber
-gemini-4-hydrogen,google,chat,gemini,1.5,7.5,0.075,,1048576,0,0,gemini/gemini-4-hydrogen
-gemini-4-hydrogen,google,chat,vertex_ai,1.5,7.5,0.075,,1048576,0,0,vertex_ai/gemini-4-hydrogen
 gemini-omni-1.1-flash,google,chat,gemini,1.5,9,,,131072,0,1,gemini/gemini-omni-1.1-flash
 gemini-omni-1.1-flash,google,chat,vertex_ai,1.5,9,,,131072,0,0,vertex_ai/gemini-omni-1.1-flash
 gemini-omni-1.2-flash,google,chat,gemini,1.5,9,,,131072,0,0,gemini/gemini-omni-1.2-flash
@@ -2055,6 +2060,8 @@ nemotron-3.5-super-vl,nvidia,chat,kyma,0.081,0.4725,0.0135,,1048576,0,0,kyma/nem
 nemotron-3.5-super-vl,nvidia,chat,nebius,0.3,0.9,0.06,,1048576,0,0,nebius/nvidia/Nemotron-3.5-Super-VL
 nova-premier,amazon,chat,amazon_nova,2.5,12.5,,,1000000,0,0,amazon-nova/nova-premier-v1
 nova-premier,amazon,chat,bedrock_converse,2.5,12.5,0.625,,1000000,0,0,amazon.nova-premier-v1:0
+nvidia-nemotron-3.5-super-vl,other,chat,deepinfra,0.15,0.5,0.02,,262144,0,0,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL
+nvidia-nemotron-3.5-super-vl,other,chat,together_ai,0.15,0.5,0.02,,262144,0,0,together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL
 nvidia-nemotron-3.5-super-vl-120b-a12b,other,chat,wandb,0.15,0.5,0.02,,1049000,0,0,wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B
 nvidia-nemotron-3.5-super-vl-120b-a12b,other,chat,baseten,0.2,0.5,0.04,,1049000,0,0,baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B
 o1-mini,openai,chat,azure,1.1,4.4,0.55,,128000,0,0,azure/o1-mini
@@ -2895,7 +2902,6 @@ nvidia-nemotron-3-super-120b-a12b,other,chat,deepinfra,0.075,0.4,,,262144,0,0,de
 nvidia-nemotron-3.5-lightning,other,chat,deepinfra,0.06,0.16,0.04,,262144,0,0,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning
 nvidia-nemotron-3.5-lightning-30b-a3b,other,chat,wandb,0.07,0.2,0.04,,262000,0,0,wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B
 nvidia-nemotron-3.5-lightning-30b-a3b-bf16,other,chat,gmi,0.15,1,0.05,,65536,0,0,gmi/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16
-nvidia-nemotron-3.5-super-vl,other,chat,together_ai,0.15,0.5,0.02,,262144,0,0,together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL
 nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,other,chat,gmi,0.1,0.5,0.05,,32768,0,0,gmi/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
 nvidia-nemotron-nano-12b,other,chat,fireworks_ai,0.2,0.2,,,128000,0,0,fireworks_ai/accounts/fireworks/models/nvidia-nemotron-nano-12b-v2
 o1-pro,openai,chat,openai,150,600,,,200000,0,1,o1-pro
@@ -3150,10 +3156,10 @@ text-embedding-3-small,other,embedding,azure,0.022,0,,,8192,0,1,azure/text-embed
 text-embedding-3-small,other,embedding,azure,0.022,,,,8192,0,1,azure/eu/text-embedding-3-small
 text-embedding-3-small,other,embedding,azure,0.025,0,,,8192,0,0,azure/us-gov/text-embedding-3-small
 text-embedding-3-small,other,embedding,hostinger_router,0.03,0,,,8192,0,0,hostinger_router/text-embedding-3-small
-gemini-3.8-flash-lite-tts,google,audio_speech,gemini,0.5,6,0.125,,8192,0,0,gemini/gemini-3.8-flash-lite-tts
+gemini-3.8-flash-lite-tts,google,audio_speech,gemini,0.5,6,,,8192,0,0,gemini/gemini-3.8-flash-lite-tts
 gemini-3.8-flash-lite-tts,google,audio_speech,replicate,0.5,6,,,8192,0,0,replicate/google/gemini-3.8-flash-lite-tts
 gemini-3.8-flash-lite-tts,google,audio_speech,vertex_ai,0.5,6,,,8192,0,0,vertex_ai/gemini-3.8-flash-lite-tts
-gemini-3.8-flash-tts,google,audio_speech,gemini,0.5,9,0.125,,8192,0,0,gemini/gemini-3.8-flash-tts
+gemini-3.8-flash-tts,google,audio_speech,gemini,0.5,9,,,8192,0,0,gemini/gemini-3.8-flash-tts
 gemini-3.8-flash-tts,google,audio_speech,replicate,0.5,9,,,8192,0,0,replicate/google/gemini-3.8-flash-tts
 gemini-3.8-flash-tts,google,audio_speech,vertex_ai,0.5,9,,,8192,0,0,vertex_ai/gemini-3.8-flash-tts
 gemini-embedding-001,google,embedding,gemini,0.15,0,,,2048,0,1,gemini/gemini-embedding-001
@@ -3339,7 +3345,7 @@ gemini-2.5-flash-native-audio-preview-09-2025,google,realtime,gemini,0.5,2,,,104
 gemini-2.5-flash-native-audio-preview-12-2025,google,realtime,gemini,0.5,2,,,131072,0,1,gemini-2.5-flash-native-audio-preview-12-2025
 gemini-2.5-flash-tts,google,audio_speech,vertex_ai,0.5,10,,,,0,0,vertex_ai/gemini-2.5-flash-tts
 gemini-2.5-pro-tts,google,audio_speech,vertex_ai,1,20,,,,0,0,vertex_ai/gemini-2.5-pro-tts
-gemini-3.1-flash-live-preview,google,realtime,gemini,0.75,4.5,,,131072,0,1,gemini-3.1-flash-live-preview
+gemini-3.1-flash-live-preview,google,realtime,gemini,0.75,4.5,,,131072,0,0,gemini-3.1-flash-live-preview
 gemini-3.1-flash-tts,google,audio_speech,replicate,2,40,,,,0,0,replicate/google/gemini-3.1-flash-tts
 gemini-3.5-transcribe-live-preview,google,audio_transcription,vertex_ai,3.5,21,,,,0,0,vertex_ai/gemini-3.5-transcribe-live-preview
 gemini-3.5-transcribe-preview,google,audio_transcription,vertex_ai,2,12,,,,0,0,vertex_ai/gemini-3.5-transcribe-preview
@@ -3378,8 +3384,8 @@ mai-image-2.6-flash,other,image_generation,azure_ai,1.75,,,,32000,0,0,azure_ai/M
 marengo-embed-2-7,other,embedding,bedrock,,0,,,77,0,1,twelvelabs.marengo-embed-2-7-v1:0
 marengo-embed-3-0,other,embedding,bedrock,,0,,,500,0,0,twelvelabs.marengo-embed-3-0-v1:0
 microsoft-decision-1,other,evaluation,azure_ai,0.042,0,,,32768,0,0,azure_ai/Microsoft-Decision-1
-mistral-embed (embedding),mistral,embedding,mistral,0.1,,,,8192,0,0,mistral/mistral-embed
-mistral-embed-2312,mistral,embedding,mistral,0.1,,,,8192,0,0,mistral/mistral-embed-2312
+mistral-embed (embedding),mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed
+mistral-embed-2312,mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed-2312
 mistral-moderation-2603,mistral,moderation,mistral,0,0,,,131072,1,0,mistral/mistral-moderation-2603
 multilingual,other,evaluation,laya,0,0,,,,1,0,laya/multilingual
 multimodalembedding,other,embedding,vertex_ai-embedding-models,0.8,0,,,2048,0,0,multimodalembedding
