@@ -509,7 +509,7 @@ deepseek,deepseek,chat,nebius,0.5,1.5,,,1048576,0,0,nebius/deepseek-ai/DeepSeek-
 deepseek,deepseek,chat,kyma,0.518,0.7571,,,1048576,0,0,kyma/deepseek-v3
 deepseek,deepseek,chat,fireworks_ai,0.9,0.9,,,1048576,0,0,fireworks_ai/accounts/fireworks/models/deepseek-v3
 deepseek,deepseek,chat,vercel_ai_gateway,0.9,0.9,,,1048576,0,0,vercel_ai_gateway/deepseek/deepseek-v3
-deepseek,deepseek,chat,together_ai,1.25,1.25,,,1048576,0,0,together_ai/deepseek-ai/DeepSeek-V3
+deepseek,deepseek,chat,together_ai,1.25,1.25,,,1048576,0,1,together_ai/deepseek-ai/DeepSeek-V3
 deepseek,deepseek,chat,replicate,1.45,1.45,,,1048576,0,0,replicate/deepseek-ai/deepseek-v3
 deepseek-v3.1,deepseek,chat,ollama,0,0,,,163840,1,0,ollama/deepseek-v3.1:671b-cloud
 deepseek-v3.1,deepseek,chat,deepinfra,0.25,0.95,0.13,,163840,0,0,deepinfra/deepseek-ai/DeepSeek-V3.1
@@ -1301,7 +1301,7 @@ inkling,other,chat,databricks,1.00002,4.04999,0.17003,1.00002,1048576,0,1,databr
 kimi-k2-instruct,moonshot,chat,deepinfra,0.5,2,,,131072,0,0,deepinfra/moonshotai/Kimi-K2-Instruct
 kimi-k2-instruct,moonshot,chat,novita,0.57,2.3,,,131072,0,0,novita/moonshotai/kimi-k2-instruct
 kimi-k2-instruct,moonshot,chat,fireworks_ai,0.6,2.5,,,131072,0,0,fireworks_ai/accounts/fireworks/models/kimi-k2-instruct
-kimi-k2-instruct,moonshot,chat,together_ai,1,3,,,131072,0,0,together_ai/moonshotai/Kimi-K2-Instruct
+kimi-k2-instruct,moonshot,chat,together_ai,1,3,,,131072,0,1,together_ai/moonshotai/Kimi-K2-Instruct
 kimi-k2-instruct,moonshot,chat,hyperbolic,2,2,,,131072,0,0,hyperbolic/moonshotai/Kimi-K2-Instruct
 kimi-k2-instruct-0905,moonshot,chat,deepinfra,0.5,2,0.4,,262144,0,0,deepinfra/moonshotai/Kimi-K2-Instruct-0905
 kimi-k2-instruct-0905,moonshot,chat,gmi,0.57,2.29,0.14,,262144,0,0,gmi/moonshotai/Kimi-K2-Instruct-0905
@@ -3059,7 +3059,7 @@ qwen3p7-plus,alibaba,chat,fireworks_ai,0.4,1.6,0.08,,262144,0,0,fireworks_ai/qwe
 qwen3p8-max,alibaba,chat,fireworks_ai,2,6,0.25,,262144,0,0,fireworks_ai/qwen3p8-max
 r1,other,chat,bedrock_converse,1.35,5.4,,,128000,0,1,us.deepseek.r1-v1:0
 r1v4-lite,other,chat,novita,0.2,0.6,,,262144,0,0,novita/skywork/r1v4-lite
-rnj-1-instruct,other,chat,together_ai,0.15,0.15,,,,0,0,together_ai/essentialai/rnj-1-instruct
+rnj-1-instruct,other,chat,together_ai,0.15,0.15,,,,0,1,together_ai/essentialai/rnj-1-instruct
 rolm-ocr,other,chat,fireworks_ai,0.2,0.2,,,128000,0,0,fireworks_ai/accounts/fireworks/models/rolm-ocr
 salamandra-7b-instruct-tools-16k,other,chat,publicai,0,0,,,16384,1,0,publicai/BSC-LT/salamandra-7b-instruct-tools-16k
 sarvam-m,other,chat,sarvam,0,0,0,0,8192,1,0,sarvam/sarvam-m
@@ -3260,6 +3260,12 @@ gpt-realtime-2.1-mini,openai,realtime,openai,0.6,2.4,0.06,,128000,0,0,gpt-realti
 gpt-realtime-2.1-mini,openai,realtime,azure,0.66,2.64,0.066,,128000,0,1,azure/us/gpt-realtime-2.1-mini
 gpt-realtime-mini,openai,realtime,azure,0.6,2.4,0.06,,128000,0,1,azure/gpt-realtime-mini
 gpt-realtime-mini,openai,realtime,openai,0.6,2.4,0.06,,128000,0,1,gpt-realtime-mini
+jev,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-latest
+jev,other,evaluation,vercel_ai_gateway,0.042,0,,,65536,0,0,vercel_ai_gateway/typesafe-ai/jev
+jev-1.13.0,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-1.13.0
+jev-1.13.0,other,evaluation,vercel_ai_gateway,0.042,0,,,65536,0,0,vercel_ai_gateway/typesafe-ai/jev-1.13.0
+jev-1.14.0,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-1.14.0
+jev-1.14.0,other,evaluation,vercel_ai_gateway,0.042,0,,,65536,0,0,vercel_ai_gateway/typesafe-ai/jev-1.14.0
 nomic-embed-text,other,embedding,fireworks_ai-embedding-models,0.008,0,,,8192,0,0,fireworks_ai/nomic-ai/nomic-embed-text-v1
 nomic-embed-text,other,embedding,llamagate,0.02,0,,,8192,0,0,llamagate/nomic-embed-text
 qwen3-embedding-0-6b,alibaba,embedding,databricks,0.02002,0,0.02002,0.02002,32768,0,0,databricks/databricks-qwen3-embedding-0-6b
@@ -3356,6 +3362,7 @@ gemini-live-2.5-flash-native-audio,google,realtime,vertex_ai-language-models,0.5
 gigaembeddings-3b-2025-09,other,embedding,gigachat,0,0,,,4096,1,0,gigachat/GigaEmbeddings-3B-2025-09
 gpt-4o-realtime-preview,openai,realtime,azure,5,20,2.5,,16000,0,0,azure/gpt-4o-realtime-preview-2024-12-17
 gpt-4o-realtime-preview,openai,realtime,azure,5.5,22,2.75,,16000,0,0,azure/eu/gpt-4o-realtime-preview-2024-12-17
+gpt-6-luna-decisions,openai,evaluation,vercel_ai_gateway,0.1,0,0.01,0.125,1050000,0,0,vercel_ai_gateway/openai/gpt-6-luna-decisions
 gpt-image-2.6-flare,openai,image_generation,openai,5,,1.25,,,0,0,gpt-image-2.6-flare
 gpt-image-2.6-sunburst,openai,image_generation,openai,5,,1.25,,,0,0,gpt-image-2.6-sunburst
 granite-speech-3.3-8b,other,audio_transcription,replicate,,4.9,,,,0,0,replicate/ibm-granite/granite-speech-3.3-8b
@@ -3365,9 +3372,6 @@ gte-large,other,embedding,fireworks_ai-embedding-models,0.016,0,,,512,0,0,firewo
 gte-large-en,other,embedding,databricks,0.12999,0,0.12999,0.12999,8192,0,0,databricks/databricks-gte-large-en
 image-to-video,other,video_generation,fal_ai,1.5,,,,,0,0,fal_ai/google/gemini-omni-flash/v1.2/image-to-video
 japanese-stable-diffusion-xl,other,image_generation,fireworks_ai,0.00013,0.00013,,,4096,0,0,fireworks_ai/accounts/fireworks/models/japanese-stable-diffusion-xl
-jev,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-latest
-jev-1.13.0,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-1.13.0
-jev-1.14.0,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-1.14.0
 jev-preview,other,evaluation,typesafe,0.042,0,,,65536,0,0,typesafe/jev-preview
 jina-reranker-m0,other,rerank,jina_ai,0.05,0,,,10240,0,0,jina-reranker-m0
 jina-reranker-v2-base-multilingual,other,rerank,jina_ai,0.05,0,,,1024,0,0,jina-reranker-v2-base-multilingual
