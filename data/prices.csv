@@ -193,7 +193,7 @@ kimi-k3,moonshot,chat,aihubmix,3,15,0.3,,1048576,0,0,aihubmix/kimi-k3
 kimi-k3,moonshot,chat,baseten,3,15,0.3,,1048576,0,0,baseten/moonshotai/Kimi-K3
 kimi-k3,moonshot,chat,empiriolabs,3,15,,,1048576,0,0,empiriolabs/kimi-k3
 kimi-k3,moonshot,chat,fireworks_ai,3,15,0.3,,1048576,0,0,fireworks_ai/accounts/fireworks/models/kimi-k3
-kimi-k3,moonshot,chat,github_copilot,3,15,0.3,,1048576,0,0,github_copilot/kimi-k3
+kimi-k3,moonshot,chat,github_copilot,3,15,0.3,,1048576,0,1,github_copilot/kimi-k3
 kimi-k3,moonshot,chat,gmi,3,15,0.3,,1048576,0,0,gmi/moonshotai/kimi-k3
 kimi-k3,moonshot,chat,moonshot,3,15,0.3,3,1048576,0,0,moonshot/kimi-k3
 kimi-k3,moonshot,chat,nebius,3,15,0.3,,1048576,0,0,nebius/moonshotai/Kimi-K3
@@ -296,7 +296,7 @@ claude-haiku-4-5,anthropic,chat,bedrock,1,5,0.1,1.25,200000,0,0,bedrock/claude_p
 claude-haiku-4-5,anthropic,chat,bedrock_converse,1,5,0.1,1.25,200000,0,0,anthropic.claude-haiku-4-5-20251001-v1:0
 claude-haiku-4-5,anthropic,chat,bedrock_mantle,1,5,0.1,1.25,200000,0,0,bedrock_mantle/anthropic.claude-haiku-4-5
 claude-haiku-4-5,anthropic,chat,deepinfra,1,5,,,200000,0,0,deepinfra/anthropic/claude-haiku-4-5
-claude-haiku-4-5,anthropic,chat,github_copilot,1,5,0.1,1.25,200000,0,0,github_copilot/claude-haiku-4.5
+claude-haiku-4-5,anthropic,chat,github_copilot,1,5,0.1,1.25,200000,0,1,github_copilot/claude-haiku-4.5
 claude-haiku-4-5,anthropic,chat,perplexity,1,5,0.1,,200000,0,0,perplexity/anthropic/claude-haiku-4-5
 claude-haiku-4-5,anthropic,chat,snowflake,1,5,0.1,,200000,0,0,snowflake/claude-haiku-4-5
 claude-haiku-4-5,anthropic,chat,vercel_ai_gateway,1,5,0.1,1.25,200000,0,0,vercel_ai_gateway/anthropic/claude-haiku-4.5
@@ -397,7 +397,7 @@ claude-fable-5,anthropic,chat,azure_ai,10,50,1,12.5,1000000,0,1,azure_ai/claude-
 claude-fable-5,anthropic,chat,bedrock,10,50,1,12.5,1000000,0,0,bedrock/claude_platform/claude-fable-5
 claude-fable-5,anthropic,chat,bedrock_converse,10,50,1,12.5,1000000,0,0,anthropic.claude-fable-5
 claude-fable-5,anthropic,chat,deepinfra,10,50,,,1000000,0,0,deepinfra/anthropic/claude-fable-5
-claude-fable-5,anthropic,chat,github_copilot,10,50,1,12.5,1000000,0,0,github_copilot/claude-fable-5
+claude-fable-5,anthropic,chat,github_copilot,10,50,1,12.5,1000000,0,1,github_copilot/claude-fable-5
 claude-fable-5,anthropic,chat,perplexity,10,50,1,,1000000,0,0,perplexity/anthropic/claude-fable-5
 claude-fable-5,anthropic,chat,replicate,10,50,,,1000000,0,0,replicate/anthropic/claude-fable-5
 claude-fable-5,anthropic,chat,vertex_ai-anthropic_models,10,50,1,12.5,1000000,0,1,vertex_ai/claude-fable-5
@@ -870,14 +870,14 @@ qwen3.8-flash,alibaba,chat,gmi,0.16,0.47,0.016,,1048575,0,0,gmi/Qwen/Qwen3.8-Fla
 qwen3.8-flash,alibaba,chat,kyma,0.2045,0.641,,,1048575,0,0,kyma/qwen3.8-flash
 gemini-3.8-flash,google,chat,databricks,0.74998,3.74997,0.07497,0.74998,1048576,0,0,databricks/databricks-gemini-3-8-flash
 gemini-3.8-flash,google,chat,gemini,0.75,3.75,0.075,,1048576,0,0,gemini/gemini-3.8-flash
-gemini-3.8-flash,google,chat,github_copilot,0.75,3.75,0.075,,1048576,0,0,github_copilot/gemini-3.8-flash
+gemini-3.8-flash,google,chat,github_copilot,0.75,3.75,0.075,,1048576,0,1,github_copilot/gemini-3.8-flash
 gemini-3.8-flash,google,chat,gmi,0.75,3.75,0.075,,1048576,0,0,gmi/google/gemini-3.8-flash
 gemini-3.8-flash,google,chat,perplexity,0.75,3.75,0.075,,1048576,0,0,perplexity/google/gemini-3.8-flash
 gemini-3.8-flash,google,chat,vertex_ai,0.75,3.75,0.075,,1048576,0,0,vertex_ai/gemini-3.8-flash
 gemini-3.8-flash,google,chat,vertex_ai-language-models,0.75,3.75,0.075,,1048576,0,0,gemini-3.8-flash
 gemini-3.8-flash,google,chat,kyma,2.026,10.126,,,1048576,0,0,kyma/gemini-3.8-flash
 gemini-4-argon,google,chat,gemini,2,10,0.1,,1048576,0,0,gemini/gemini-4-argon
-gemini-4-argon,google,chat,github_copilot,2,10,0.1,,1048576,0,0,github_copilot/gemini-4-argon
+gemini-4-argon,google,chat,github_copilot,2,10,0.1,,1048576,0,1,github_copilot/gemini-4-argon
 gemini-4-argon,google,chat,gmi,2,10,0.1,,1048576,0,0,gmi/google/gemini-4-argon
 gemini-4-argon,google,chat,opencode_go,2,10,0.1,,1048576,0,0,opencode_go/gemini-4-argon
 gemini-4-argon,google,chat,perplexity,2,10,0.1,,1048576,0,0,perplexity/google/gemini-4-argon
@@ -929,7 +929,7 @@ gpt-5.4-mini,openai,chat,perplexity,0.75,4.5,0.075,,409600,0,0,perplexity/openai
 gpt-5.4-mini,openai,chat,azure,0.825,4.95,0.0825,,409600,0,1,azure/eu/gpt-5.4-mini
 grok-4.6,xai,chat,aihubmix,2,6,0.5,,524288,0,0,aihubmix/grok-4.6
 grok-4.6,xai,chat,azure_ai,2,6,0.5,,524288,0,0,azure_ai/grok-4.6
-grok-4.6,xai,chat,github_copilot,2,6,0.5,,524288,0,0,github_copilot/grok-4.6
+grok-4.6,xai,chat,github_copilot,2,6,0.5,,524288,0,1,github_copilot/grok-4.6
 grok-4.6,xai,chat,perplexity,2,6,0.5,,524288,0,0,perplexity/xai/grok-4.6
 grok-4.6,xai,chat,vertex_ai,2,6,0.5,,524288,0,0,vertex_ai/xai/grok-4.6
 grok-4.6,xai,chat,xai,2,6,0.5,,524288,0,0,xai/grok-4.6
@@ -1435,7 +1435,7 @@ gpt-5.5-pro,openai,chat,azure,30,180,3,,1050000,0,0,azure/gpt-5.5-pro
 gpt-5.5-pro,openai,chat,openai,30,180,,,1050000,0,0,gpt-5.5-pro
 gpt-oss-safeguard-20b,openai,chat,bedrock_converse,0.07,0.2,,,131072,0,0,openai.gpt-oss-safeguard-20b
 gpt-oss-safeguard-20b,openai,chat,bedrock_mantle,0.07,0.2,,,131072,0,0,bedrock_mantle/openai.gpt-oss-safeguard-20b
-gpt-oss-safeguard-20b,openai,chat,groq,0.075,0.3,0.037,,131072,0,0,groq/openai/gpt-oss-safeguard-20b
+gpt-oss-safeguard-20b,openai,chat,groq,0.075,0.3,0.0375,,131072,0,0,groq/openai/gpt-oss-safeguard-20b
 gpt-oss-safeguard-20b,openai,chat,fireworks_ai,0.5,0.5,,,131072,0,0,fireworks_ai/accounts/fireworks/models/gpt-oss-safeguard-20b
 kimi-k2.7-code-highspeed,moonshot,chat,aihubmix,1.9,7.999,0.32167,,262144,0,0,aihubmix/kimi-k2.7-code-highspeed
 kimi-k2.7-code-highspeed,moonshot,chat,empiriolabs,1.9,8,,,262144,0,0,empiriolabs/kimi-k2-7-code-highspeed
@@ -1631,6 +1631,9 @@ grok-4,xai,chat,replicate,7.2,36,,,262000,0,0,replicate/xai/grok-4
 grok-4.20-multi-agent,xai,chat,perplexity,1.25,2.5,0.2,,2000000,0,0,perplexity/xai/grok-4.20-multi-agent
 grok-4.20-multi-agent,xai,chat,xai,1.25,2.5,0.2,,2000000,0,0,xai/grok-4.20-multi-agent
 grok-4.20-multi-agent,xai,chat,kyma,1.767,3.534,,,2000000,0,0,kyma/grok-4.20-multi-agent
+inkling-2-small,other,chat,cloudflare,0.3,1,0.1,,1048576,0,0,cloudflare/@cf/thinkingmachines/inkling-2-small
+inkling-2-small,other,chat,nebius,0.3,1,0.06,,1048576,0,0,nebius/thinkingmachines/Inkling-2-Small
+inkling-2-small,other,chat,together_ai,0.3,1,0.03,,1048576,0,0,together_ai/thinkingmachines/Inkling-2-Small
 jamba-1.5-large,ai21,chat,ai21,2,8,,,256000,0,0,jamba-1.5-large
 jamba-1.5-large,ai21,chat,bedrock,2,8,,,256000,0,1,ai21.jamba-1-5-large-v1:0
 jamba-1.5-large,ai21,chat,vertex_ai-ai21_models,2,8,,,256000,0,1,vertex_ai/jamba-1.5-large
@@ -2591,7 +2594,6 @@ hermes3-70b,other,chat,lambda_ai,0.12,0.3,,,131072,0,0,lambda_ai/hermes3-70b
 hermes3-8b,other,chat,lambda_ai,0.025,0.04,,,131072,0,0,lambda_ai/hermes3-8b
 hunyuanocr,tencent,chat,gmi,0.5,0.5,,,32768,0,0,gmi/tencent/HunyuanOCR
 hy3-preview,other,chat,gmi,0.18,0.6,0.06,,262144,0,0,gmi/tencent/hy3-preview
-inkling-2-small,other,chat,together_ai,0.3,1,0.03,,1048576,0,0,together_ai/thinkingmachines/Inkling-2-Small
 internlm2_5-20b-chat,other,chat,ollama,0,0,,,32768,1,0,ollama/internlm2_5-20b-chat
 internvl3-38b,other,chat,fireworks_ai,0.9,0.9,,,16384,0,0,fireworks_ai/accounts/fireworks/models/internvl3-38b
 internvl3-78b,other,chat,fireworks_ai,0.9,0.9,,,16384,0,0,fireworks_ai/accounts/fireworks/models/internvl3-78b
