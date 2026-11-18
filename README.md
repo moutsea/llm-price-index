@@ -14,14 +14,14 @@ selling *the same weights* at prices that differ by an order of magnitude.
   [`model_prices_and_context_window.json`](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) (MIT)
 
 <!-- BEGIN DATA -->
-_Last rebuilt: 2026-11-17 15:56 UTC_
+_Last rebuilt: 2026-11-18 15:35 UTC_
 
 | | |
 |---|---|
-| Price points | **3,553** |
-| Model families | **1,646** (1,376 chat) |
+| Price points | **3,952** |
+| Model families | **1,664** (1,393 chat) |
 | Providers | **123** |
-| Comparable across providers | **426** |
+| Comparable across providers | **430** |
 | Median price spread | **1.7×** |
 | Widest spread | **40.8×** |
 
@@ -34,16 +34,16 @@ _Last rebuilt: 2026-11-17 15:56 UTC_
 | [qwen3-235b-a22b-instruct-2507](https://moutsea.github.io/llm-price-index/m/qwen3-235b-a22b-instruct-2507.html) | Alibaba | 7 | $0.090 | $3.00 | **33.3×** |
 | [gpt-oss-120b](https://moutsea.github.io/llm-price-index/m/gpt-oss-120b.html) | OpenAI | 27 | $0.030 | $0.800 | **26.7×** |
 | [mistral-small-24b-instruct-2501](https://moutsea.github.io/llm-price-index/m/mistral-small-24b-instruct-2501.html) | Mistral | 3 | $0.050 | $0.900 | **18.0×** |
-| [mistral-large](https://moutsea.github.io/llm-price-index/m/mistral-large.html) | Mistral | 6 | $0.500 | $8.00 | **16.0×** |
 | [deepseek-r1-0528](https://moutsea.github.io/llm-price-index/m/deepseek-r1-0528.html) | DeepSeek | 9 | $0.200 | $3.00 | **15.0×** |
 | [qwen2.5-coder-32b-instruct](https://moutsea.github.io/llm-price-index/m/qwen2-5-coder-32b-instruct.html) | Alibaba | 4 | $0.060 | $0.870 | **14.5×** |
 | [llama-4-scout-17b-16e-instruct](https://moutsea.github.io/llm-price-index/m/llama-4-scout-17b-16e-instruct.html) | Meta | 9 | $0.050 | $0.720 | **14.4×** |
 | [llama-4-maverick-17b-128e-instruct-fp8](https://moutsea.github.io/llm-price-index/m/llama-4-maverick-17b-128e-instruct-fp8.html) | Meta | 7 | $0.050 | $0.720 | **14.4×** |
 | [gpt-oss-20b](https://moutsea.github.io/llm-price-index/m/gpt-oss-20b.html) | OpenAI | 16 | $0.015 | $0.200 | **13.8×** |
+| [llama3-2-3b-instruct](https://moutsea.github.io/llm-price-index/m/llama3-2-3b-instruct.html) | Meta | 2 | $0.015 | $0.200 | **13.3×** |
 | [mistral-7b-instruct-v0.1](https://moutsea.github.io/llm-price-index/m/mistral-7b-instruct-v0-1.html) | Mistral | 3 | $0.150 | $1.92 | **12.8×** |
-| [llama3-2-3b-instruct](https://moutsea.github.io/llm-price-index/m/llama3-2-3b-instruct.html) | Meta | 2 | $0.015 | $0.190 | **12.7×** |
 | [deepseek-r1](https://moutsea.github.io/llm-price-index/m/deepseek-r1.html) | DeepSeek | 14 | $0.400 | $5.00 | **12.5×** |
 | [deepseek-v3.1](https://moutsea.github.io/llm-price-index/m/deepseek-v3-1.html) | DeepSeek | 11 | $0.250 | $3.00 | **12.0×** |
+| [deepseek-v4.1-flash-fast](https://moutsea.github.io/llm-price-index/m/deepseek-v4-1-flash-fast.html) | DeepSeek | 4 | $0.050 | $0.600 | **12.0×** |
 <!-- END DATA -->
 
 ## Why this exists
