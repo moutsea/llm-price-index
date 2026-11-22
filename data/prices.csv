@@ -331,7 +331,7 @@ deepseek-v4-pro-0813,deepseek,chat,inferenceapis,1.72,5.15,0.17,,1049000,0,0,inf
 gpt-5.6-luna,openai,chat,databricks,0.19999,1.20001,0.02002,0.24997,1050000,0,0,databricks/databricks-gpt-5-6-luna
 gpt-5.6-luna,openai,chat,aihubmix,0.2,1.2,0.02,0.25,1050000,0,0,aihubmix/gpt-5.6-luna
 gpt-5.6-luna,openai,chat,azure,0.2,1.2,0.02,0.25,1050000,0,1,azure/gpt-5.6-luna
-gpt-5.6-luna,openai,chat,azure_ai,0.2,1.2,0.02,0.25,1050000,0,0,azure_ai/gpt-5.6-luna
+gpt-5.6-luna,openai,chat,azure_ai,0.2,1.2,0.02,0.25,1050000,0,1,azure_ai/gpt-5.6-luna
 gpt-5.6-luna,openai,chat,bedrock_converse,0.2,1.2,0.02,0.25,1050000,0,0,global.openai.gpt-5.6-luna
 gpt-5.6-luna,openai,chat,github_copilot,0.2,1.2,0.02,0.25,1050000,0,0,github_copilot/gpt-5.6-luna
 gpt-5.6-luna,openai,chat,openai,0.2,1.2,0.02,0.25,1050000,0,0,gpt-5.6-luna
@@ -441,7 +441,7 @@ gemma-4-31b-it,google,chat,sail,0.4,0.6,0.2,,262144,0,0,sail/google/gemma-4-31B-
 gpt-5.6-terra,openai,chat,databricks,1.99997,12,0.19999,2.49998,1050000,0,0,databricks/databricks-gpt-5-6-terra
 gpt-5.6-terra,openai,chat,aihubmix,2,12,0.2,2.5,1050000,0,0,aihubmix/gpt-5.6-terra
 gpt-5.6-terra,openai,chat,azure,2,12,0.2,2.5,1050000,0,1,azure/gpt-5.6-terra
-gpt-5.6-terra,openai,chat,azure_ai,2,12,0.2,2.5,1050000,0,0,azure_ai/gpt-5.6-terra
+gpt-5.6-terra,openai,chat,azure_ai,2,12,0.2,2.5,1050000,0,1,azure_ai/gpt-5.6-terra
 gpt-5.6-terra,openai,chat,bedrock_converse,2,12,0.2,2.5,1050000,0,0,global.openai.gpt-5.6-terra
 gpt-5.6-terra,openai,chat,github_copilot,2,12,0.2,2.5,1050000,0,1,github_copilot/gpt-5.6-terra
 gpt-5.6-terra,openai,chat,openai,2,12,0.2,2.5,1050000,0,0,gpt-5.6-terra
@@ -542,7 +542,7 @@ glm-5.1,zhipu,chat,together_ai,1.4,4.4,0.26,,204800,0,1,together_ai/zai-org/GLM-
 glm-5.1,zhipu,chat,zai,1.4,4.4,0.26,0,204800,0,0,zai/glm-5.1
 glm-5.1,zhipu,chat,kyma,1.89,5.94,0.27675,,204800,0,0,kyma/glm-5.1
 gpt-6-luna,openai,chat,azure,0.1,0.5,0.01,0.125,1050000,0,1,azure/gpt-6-luna
-gpt-6-luna,openai,chat,azure_ai,0.1,0.5,0.01,0.125,1050000,0,0,azure_ai/gpt-6-luna
+gpt-6-luna,openai,chat,azure_ai,0.1,0.5,0.01,0.125,1050000,0,1,azure_ai/gpt-6-luna
 gpt-6-luna,openai,chat,bedrock_converse,0.1,0.5,0.01,0.125,1050000,0,0,openai.gpt-6-luna
 gpt-6-luna,openai,chat,github_copilot,0.1,0.5,0.01,0.125,1050000,0,0,github_copilot/gpt-6-luna
 gpt-6-luna,openai,chat,gmi,0.1,0.5,0.01,,1050000,0,0,gmi/openai/gpt-6-luna
@@ -623,7 +623,7 @@ deepseek-v3.1,deepseek,chat,azure_ai,1.23,4.94,,,163840,0,1,azure_ai/deepseek-v3
 deepseek-v3.1,deepseek,chat,sambanova,3,4.5,,,163840,0,0,sambanova/DeepSeek-V3.1
 gpt-5.6-sol,openai,chat,replicate,2,10,,,1050000,0,0,replicate/openai/gpt-5.6-sol
 gpt-5.6-sol,openai,chat,azure,4,20,0.4,5,1050000,0,1,azure/gpt-5.6-sol
-gpt-5.6-sol,openai,chat,azure_ai,4,20,0.4,5,1050000,0,0,azure_ai/gpt-5.6-sol
+gpt-5.6-sol,openai,chat,azure_ai,4,20,0.4,5,1050000,0,1,azure_ai/gpt-5.6-sol
 gpt-5.6-sol,openai,chat,bedrock_converse,4,20,0.4,5,1050000,0,0,global.openai.gpt-5.6-sol
 gpt-5.6-sol,openai,chat,github_copilot,4,20,0.4,5,1050000,0,0,github_copilot/gpt-5.6-sol
 gpt-5.6-sol,openai,chat,openai,4,20,0.4,5,1050000,0,0,gpt-5.6-sol
@@ -793,7 +793,7 @@ gpt-5.5,openai,chat,bedrock_converse,5.5,33,0.55,,1050000,0,0,us.openai.gpt-5.5
 gpt-5.5,openai,chat,bedrock_mantle,5.5,33,0.55,,1050000,0,0,bedrock_mantle/openai.gpt-5.5
 gpt-6-astra,openai,chat,databricks,9.99999,50,1.00002,12.5,1050000,0,0,databricks/databricks-gpt-6-astra
 gpt-6-astra,openai,chat,azure,10,50,1,12.5,1050000,0,1,azure/gpt-6-astra
-gpt-6-astra,openai,chat,azure_ai,10,50,1,12.5,1050000,0,0,azure_ai/gpt-6-astra
+gpt-6-astra,openai,chat,azure_ai,10,50,1,12.5,1050000,0,1,azure_ai/gpt-6-astra
 gpt-6-astra,openai,chat,bedrock_converse,10,50,1,12.5,1050000,0,0,global.openai.gpt-6-astra
 gpt-6-astra,openai,chat,github_copilot,10,50,1,12.5,1050000,0,0,github_copilot/gpt-6-astra
 gpt-6-astra,openai,chat,gmi,10,50,1,,1050000,0,0,gmi/openai/gpt-6-astra
@@ -806,7 +806,7 @@ gpt-6-astra,openai,chat,azure,12,60,1.2,15,1050000,0,1,azure/eu/gpt-6-astra
 gpt-6-astra,openai,chat,kyma,13.5,67.5,1.35,,1050000,0,0,kyma/gpt-6-astra
 gpt-6.1-sol,openai,chat,databricks,1.99997,9.99999,0.10003,2.49998,1050000,0,0,databricks/databricks-gpt-6-1-sol
 gpt-6.1-sol,openai,chat,azure,2,10,0.1,2.5,1050000,0,1,azure/gpt-6.1-sol
-gpt-6.1-sol,openai,chat,azure_ai,2,10,0.1,2.5,1050000,0,0,azure_ai/gpt-6.1-sol
+gpt-6.1-sol,openai,chat,azure_ai,2,10,0.1,2.5,1050000,0,1,azure_ai/gpt-6.1-sol
 gpt-6.1-sol,openai,chat,bedrock_converse,2,10,0.1,2.5,1050000,0,0,global.openai.gpt-6.1-sol
 gpt-6.1-sol,openai,chat,github_copilot,2,10,0.1,2.5,1050000,0,0,github_copilot/gpt-6.1-sol
 gpt-6.1-sol,openai,chat,gmi,2,10,0.1,,1050000,0,0,gmi/openai/gpt-6.1-sol
@@ -909,7 +909,7 @@ gpt-5.4-nano,openai,chat,zerogpu,0.2,1.25,0.02,,409600,0,0,zerogpu/gpt-5.4-nano
 gpt-5.4-nano,openai,chat,azure,0.22,1.375,0.022,,409600,0,1,azure/eu/gpt-5.4-nano
 gpt-6-sol,openai,chat,databricks,1.99997,9.99999,0.19999,2.49998,1050000,0,0,databricks/databricks-gpt-6-sol
 gpt-6-sol,openai,chat,azure,2,10,0.2,2.5,1050000,0,1,azure/gpt-6-sol
-gpt-6-sol,openai,chat,azure_ai,2,10,0.2,2.5,1050000,0,0,azure_ai/gpt-6-sol
+gpt-6-sol,openai,chat,azure_ai,2,10,0.2,2.5,1050000,0,1,azure_ai/gpt-6-sol
 gpt-6-sol,openai,chat,bedrock_converse,2,10,0.2,2.5,1050000,0,0,openai.gpt-6-sol
 gpt-6-sol,openai,chat,github_copilot,2,10,0.2,2.5,1050000,0,0,github_copilot/gpt-6-sol
 gpt-6-sol,openai,chat,gmi,2,10,0.2,,1050000,0,0,gmi/openai/gpt-6-sol
@@ -1017,7 +1017,7 @@ gpt-5.4-mini,openai,chat,openai,0.75,4.5,0.075,,409600,0,0,gpt-5.4-mini
 gpt-5.4-mini,openai,chat,perplexity,0.75,4.5,0.075,,409600,0,0,perplexity/openai/gpt-5.4-mini
 gpt-5.4-mini,openai,chat,azure,0.825,4.95,0.0825,,409600,0,1,azure/eu/gpt-5.4-mini
 gpt-6.1-terra,openai,chat,azure,1,5,0.05,1.25,922000,0,1,azure/gpt-6.1-terra
-gpt-6.1-terra,openai,chat,azure_ai,1,5,0.05,1.25,922000,0,0,azure_ai/gpt-6.1-terra
+gpt-6.1-terra,openai,chat,azure_ai,1,5,0.05,1.25,922000,0,1,azure_ai/gpt-6.1-terra
 gpt-6.1-terra,openai,chat,bedrock_converse,1,5,0.05,1.25,922000,0,0,global.openai.gpt-6.1-terra
 gpt-6.1-terra,openai,chat,github_copilot,1,5,0.05,1.25,922000,0,0,github_copilot/gpt-6.1-terra
 gpt-6.1-terra,openai,chat,openai,1,5,0.05,1.25,922000,0,0,gpt-6.1-terra
@@ -1028,7 +1028,7 @@ gpt-6.1-terra,openai,chat,bedrock_converse,1.1,5.5,0.055,1.375,922000,0,0,us.ope
 gpt-6.1-terra,openai,chat,bedrock_mantle,1.1,5.5,0.055,1.375,922000,0,0,bedrock_mantle/openai.gpt-6.1-terra
 gpt-6.1-terra,openai,chat,azure,1.2,6,0.06,1.5,922000,0,1,azure/eu/gpt-6.1-terra
 grok-4.6,xai,chat,aihubmix,2,6,0.5,,524288,0,0,aihubmix/grok-4.6
-grok-4.6,xai,chat,azure_ai,2,6,0.5,,524288,0,0,azure_ai/grok-4.6
+grok-4.6,xai,chat,azure_ai,2,6,0.5,,524288,0,1,azure_ai/grok-4.6
 grok-4.6,xai,chat,github_copilot,2,6,0.5,,524288,0,1,github_copilot/grok-4.6
 grok-4.6,xai,chat,perplexity,2,6,0.5,,524288,0,0,perplexity/xai/grok-4.6
 grok-4.6,xai,chat,vertex_ai,2,6,0.5,,524288,0,0,vertex_ai/xai/grok-4.6
@@ -1472,7 +1472,7 @@ grok-4.20-reasoning,xai,chat,perplexity,1.25,2.5,0.2,,2000000,0,0,perplexity/xai
 grok-4.20-reasoning,xai,chat,vertex_ai,1.25,2.5,0.2,,2000000,0,0,vertex_ai/xai/grok-4.20-reasoning
 grok-4.20-reasoning,xai,chat,xai,1.25,2.5,0.2,,2000000,0,0,xai/grok-4.20-reasoning
 grok-4.20-reasoning,xai,chat,aihubmix,2,6,0.2,,2000000,0,0,aihubmix/grok-4-20-reasoning
-grok-4.3,xai,chat,azure_ai,1.25,2.5,0.2,,1000000,0,0,azure_ai/grok-4.3
+grok-4.3,xai,chat,azure_ai,1.25,2.5,0.2,,1000000,0,1,azure_ai/grok-4.3
 grok-4.3,xai,chat,perplexity,1.25,2.5,0.2,,1000000,0,0,perplexity/xai/grok-4.3
 grok-4.3,xai,chat,vertex_ai,1.25,2.5,0.2,,1000000,0,0,vertex_ai/xai/grok-4.3
 grok-4.3,xai,chat,xai,1.25,2.5,0.2,,1000000,0,0,xai/grok-4.3
@@ -1674,6 +1674,10 @@ muse-spark-1.2,other,chat,empiriolabs,1.25,4.25,1,,1048576,0,0,empiriolabs/muse-
 muse-spark-1.2,other,chat,meta,1.25,4.25,0.15,,1048576,0,0,meta/muse-spark-1.2
 muse-spark-1.2,other,chat,aihubmix,1.375,4.675,,,1048576,0,0,aihubmix/muse-spark-1.2
 muse-spark-1.2,other,chat,kyma,1.773,6.025,,,1048576,0,0,kyma/muse-spark-1.2
+muse-spark-1.3,other,chat,empiriolabs,1.25,4.25,1,,1048576,0,0,empiriolabs/muse-spark-1-3
+muse-spark-1.3,other,chat,meta,1.25,4.25,0.15,,1048576,0,0,meta/muse-spark-1.3
+muse-spark-1.3,other,chat,vertex_ai,1.25,4.25,0.15,,1048576,0,0,vertex_ai/meta/muse-spark-1.3
+muse-spark-1.3,other,chat,kyma,1.688,5.738,,,1048576,0,0,kyma/muse-spark-1.3
 nemotron-3-ultra-550b-a55b,nvidia,chat,perplexity,0.25,2.5,0.25,,1048576,0,0,perplexity/perplexity/nemotron-3-ultra-550b-a55b
 nemotron-3-ultra-550b-a55b,nvidia,chat,together_ai,0.6,3.6,0.2,,1048576,0,1,together_ai/nvidia/nemotron-3-ultra-550b-a55b
 nemotron-3-ultra-550b-a55b,nvidia,chat,gmi,0.8,2.6,0.1,,1048576,0,0,gmi/nvidia/nemotron-3-ultra-550b-a55b
@@ -1978,9 +1982,6 @@ moonshotai.kimi-k2.5,moonshot,chat,bedrock_mantle,0.93,4.65,,,262144,0,0,bedrock
 muse-spark-1.1,other,chat,empiriolabs,1.25,4.25,1,,1048576,0,0,empiriolabs/muse-spark-1-1
 muse-spark-1.1,other,chat,meta,1.25,4.25,0.15,,1048576,0,0,meta/muse-spark-1.1
 muse-spark-1.1,other,chat,kyma,1.542,5.243,,,1048576,0,0,kyma/muse-spark-1.1
-muse-spark-1.3,other,chat,empiriolabs,1.25,4.25,1,,1048576,0,0,empiriolabs/muse-spark-1-3
-muse-spark-1.3,other,chat,meta,1.25,4.25,0.15,,1048576,0,0,meta/muse-spark-1.3
-muse-spark-1.3,other,chat,kyma,1.688,5.738,,,1048576,0,0,kyma/muse-spark-1.3
 mythomax-l2-13b,other,chat,novita,0.09,0.09,,,4096,0,0,novita/gryphe/mythomax-l2-13b
 mythomax-l2-13b,other,chat,fireworks_ai,0.2,0.2,,,4096,0,0,fireworks_ai/accounts/fireworks/models/mythomax-l2-13b
 mythomax-l2-13b,other,chat,deepinfra,0.4,0.4,,,4096,0,0,deepinfra/Gryphe/MythoMax-L2-13b
@@ -2381,7 +2382,7 @@ magistral-small-2509,mistral,chat,bedrock_mantle,0.78,2.33,,,128000,0,0,bedrock_
 mai-code-1.1-flash,other,chat,azure_ai,0.2,1.2,0.02,,256000,0,1,azure_ai/MAI-Code-1.1-Flash
 mai-code-1.1-flash,other,chat,github_copilot,0.2,1.2,0.02,,256000,0,0,github_copilot/mai-code-1.1-flash
 mai-thinking-1,other,chat,aihubmix,2,8,,,256000,0,0,aihubmix/mai-thinking-1
-mai-thinking-1,other,chat,azure_ai,2,8,0.2,,256000,0,0,azure_ai/MAI-Thinking-1
+mai-thinking-1,other,chat,azure_ai,2,8,0.2,,256000,0,1,azure_ai/MAI-Thinking-1
 meta-llama-3.1-405b-instruct,meta,chat,hyperbolic,0.12,0.3,,,128000,0,0,hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct
 meta-llama-3.1-405b-instruct,meta,chat,nebius,1,3,,,128000,0,0,nebius/meta-llama/Meta-Llama-3.1-405B-Instruct
 meta-llama-3.1-70b-instruct-turbo,meta,chat,deepinfra,0.4,0.4,,,131072,0,0,deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
@@ -2449,7 +2450,7 @@ mistral-medium-2505,mistral,chat,azure_ai,0.4,2,,,131072,0,1,azure_ai/mistral-me
 mistral-medium-2505,mistral,chat,watsonx,3,10,,,131072,0,0,watsonx/mistralai/mistral-medium-2505
 mistral-medium-3,mistral,chat,vertex_ai-mistral_models,0.4,2,,,262144,0,0,vertex_ai/mistral-medium-3
 mistral-medium-3,mistral,chat,mistral,1.5,7.5,0.15,,262144,0,0,mistral/mistral-medium-3
-mistral-medium-3-5,mistral,chat,azure_ai,1.5,7.5,,,262144,0,0,azure_ai/mistral-medium-3-5
+mistral-medium-3-5,mistral,chat,azure_ai,1.5,7.5,,,262144,0,1,azure_ai/mistral-medium-3-5
 mistral-medium-3-5,mistral,chat,mistral,1.5,7.5,0.15,,262144,0,0,mistral/mistral-medium-3.5
 mistral-small,mistral,chat,mistral,0.1,0.3,0.01,,262144,0,0,mistral/mistral-small
 mistral-small,mistral,chat,vercel_ai_gateway,0.1,0.3,,,262144,0,0,vercel_ai_gateway/mistral/mistral-small
@@ -2471,10 +2472,14 @@ morph-v3-fast,other,chat,morph,0.8,1.2,,,32768,0,0,morph/morph-v3-fast
 morph-v3-fast,other,chat,vercel_ai_gateway,0.8,1.2,,,32768,0,0,vercel_ai_gateway/morph/morph-v3-fast
 morph-v3-large,other,chat,morph,0.9,1.9,,,32768,0,0,morph/morph-v3-large
 morph-v3-large,other,chat,vercel_ai_gateway,0.9,1.9,,,32768,0,0,vercel_ai_gateway/morph/morph-v3-large
+muse-ember-1.0,other,chat,meta,0.1,0.5,0.004,,1048576,0,0,meta/muse-ember-1.0
+muse-ember-1.0,other,chat,vertex_ai,0.1,0.5,0.004,,1048576,0,0,vertex_ai/meta/muse-ember-1.0
 muse-spark-1.2-contributor,other,chat,meta,0.1,0.2,0.002,,1048576,0,0,meta/muse-spark-1.2-contributor
 muse-spark-1.2-contributor,other,chat,opencode_go,0.1,0.2,0.002,,1048576,0,0,opencode_go/muse-spark-1.2-contributor
 muse-spark-1.3-contributor,other,chat,meta,0.1,0.2,0.002,,1048576,0,0,meta/muse-spark-1.3-contributor
 muse-spark-1.3-contributor,other,chat,opencode_go,0.1,0.2,0.002,,1048576,0,0,opencode_go/muse-spark-1.3-contributor
+muse-wonder-1.0,other,chat,meta,4,20,0.2,,1048576,0,0,meta/muse-wonder-1.0
+muse-wonder-1.0,other,chat,vertex_ai,4,20,0.2,,1048576,0,0,vertex_ai/meta/muse-wonder-1.0
 nemotron-3-nano-30b-a3b,nvidia,chat,deepinfra,0.05,0.2,0.025,,262144,0,0,deepinfra/nvidia/Nemotron-3-Nano-30B-A3B
 nemotron-3-nano-30b-a3b,nvidia,chat,novita,0.05,0.2,,,262144,0,0,novita/nvidia/nemotron-3-nano-30b-a3b
 nemotron-3.5-super-vl,nvidia,chat,kyma,0.081,0.4725,0.0135,,1048576,0,0,kyma/nemotron-3.5-super-vl
@@ -3060,6 +3065,7 @@ kimi-k3-spot,moonshot,chat,fireworks_ai,2.1,10.5,0.21,,1048576,0,0,fireworks_ai/
 kimi-k3-us,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-us
 kimi-k3.1-pro-highspeed,moonshot,chat,moonshot,4,20,0.2,4,1048576,0,0,moonshot/kimi-k3.1-pro-highspeed
 kimi-k3p1-pro,moonshot,chat,fireworks_ai,2,10,0.2,,1048576,0,0,fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro
+kimi-k3p1-pro-us,moonshot,chat,fireworks_ai,2.5,12.5,0.25,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us
 l3-70b-euryale-v2.1,other,chat,novita,1.48,1.48,,,8192,0,0,novita/sao10k/l3-70b-euryale-v2.1
 l3-8b-lunaris,other,chat,novita,0.05,0.05,,,8192,0,0,novita/sao10k/l3-8b-lunaris
 l3-8b-lunaris-v1-turbo,other,chat,deepinfra,0.04,0.05,,,8192,0,0,deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo
@@ -3295,10 +3301,8 @@ morph-kimik3-fast,other,chat,morph,6,22.5,0.6,,1048576,0,0,morph/morph-kimik3-fa
 motif-3,other,chat,aiand,0.5,2,0.2,,262144,0,0,aiand/motif-technologies/motif-3
 mt0-xxl,other,chat,watsonx,1.908,1.908,,,4096,0,0,watsonx/bigscience/mt0-xxl
 mt0-xxl-13b,other,chat,watsonx,1.908,1.908,,,4096,0,0,watsonx/bigscience/mt0-xxl-13b
-muse-ember-1.0,other,chat,meta,0.1,0.5,0.004,,1048576,0,0,meta/muse-ember-1.0
 muse-spark-open-816b-a42b,other,chat,together_ai,1.25,4.25,0.15,,1048576,0,0,together_ai/meta-models/Muse-Spark-Open-816B-A42B
 muse-wonder,other,chat,kyma,5.4,27,,,1048576,0,0,kyma/muse-wonder
-muse-wonder-1.0,other,chat,meta,4,20,0.2,,1048576,0,0,meta/muse-wonder-1.0
 nemotron-120b-a12b,nvidia,chat,baseten,0.3,0.75,,,,0,1,baseten/nvidia/Nemotron-120B-A12B
 nemotron-3-120b-a12b,nvidia,chat,cloudflare,0.5,1.5,,,256000,0,0,cloudflare/@cf/nvidia/nemotron-3-120b-a12b
 nemotron-3-nano-omni,nvidia,chat,nebius,0.06,0.24,,,262144,0,0,nebius/nvidia/Nemotron-3-Nano-Omni
@@ -3880,13 +3884,13 @@ lyria-3-pro-preview (audio speech),other,audio_speech,vertex_ai,0,0,,,131072,1,0
 mai-image-2.5,other,image_generation,azure_ai,5,,,,32000,0,1,azure_ai/MAI-Image-2.5
 mai-image-2.5-flash,other,image_generation,azure_ai,1.75,,,,32000,0,1,azure_ai/MAI-Image-2.5-Flash
 mai-image-2.5-pro,other,image_generation,azure_ai,5,,,,32000,0,1,azure_ai/MAI-Image-2.5-Pro
-mai-image-2.6,other,image_generation,azure_ai,5,,,,32000,0,0,azure_ai/MAI-Image-2.6
-mai-image-2.6-flash,other,image_generation,azure_ai,1.75,,,,32000,0,0,azure_ai/MAI-Image-2.6-Flash
+mai-image-2.6,other,image_generation,azure_ai,5,,,,32000,0,1,azure_ai/MAI-Image-2.6
+mai-image-2.6-flash,other,image_generation,azure_ai,1.75,,,,32000,0,1,azure_ai/MAI-Image-2.6-Flash
 marengo-embed-2-7,other,embedding,bedrock,,0,,,77,0,1,twelvelabs.marengo-embed-2-7-v1:0
 marengo-embed-3-0,other,embedding,bedrock,,0,,,500,0,0,twelvelabs.marengo-embed-3-0-v1:0
 mercury-decide,other,evaluation,openrouter,0,0,,,65536,1,0,openrouter/inception/mercury-decide:free
 mercury-decide,other,evaluation,openrouter,0.02,0,,,65536,0,0,openrouter/inception/mercury-decide
-microsoft-decision-1,other,evaluation,azure_ai,0.042,0,,,32768,0,0,azure_ai/Microsoft-Decision-1
+microsoft-decision-1,other,evaluation,azure_ai,0.042,0,,,32768,0,1,azure_ai/Microsoft-Decision-1
 microsoft-decision-1.1,other,decisions,azure_ai,0.042,0,,,32768,0,0,azure_ai/Microsoft-Decision-1.1
 mistral-embed (embedding),mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed
 mistral-embed-2312,mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed-2312
