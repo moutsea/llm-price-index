@@ -508,7 +508,7 @@ deepseek-v4.1-flash-1017,deepseek,chat,deepinfra,0.14,0.42,0.0042,,1049000,0,0,d
 deepseek-v4.1-flash-1017,deepseek,chat,gmi,0.18,0.72,0.0036,,1049000,0,0,gmi/deepseek-ai/deepseek-v4.1-flash-1017
 deepseek-v4.1-flash-1017,deepseek,chat,empiriolabs,0.2,0.8,0.02,,1049000,0,0,empiriolabs/deepseek-v4-1-flash-1017
 deepseek-v4.1-flash-1017,deepseek,chat,aiand,0.3,0.6,0.02,,1049000,0,0,aiand/deepseek-ai/deepseek-v4.1-flash-1017
-deepseek-v4.1-flash-1017,deepseek,chat,azure_ai,0.3,1.2,0.006,,1049000,0,0,azure_ai/deepseek-v4.1-flash-1017
+deepseek-v4.1-flash-1017,deepseek,chat,azure_ai,0.3,1.2,0.006,,1049000,0,1,azure_ai/deepseek-v4.1-flash-1017
 deepseek-v4.1-flash-1017,deepseek,chat,baseten,0.3,1.2,0.007,,1049000,0,0,baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017
 deepseek-v4.1-flash-1017,deepseek,chat,mistral,0.3,1.2,0.007,,1049000,0,0,mistral/deepseek-v4-1-flash-1017
 deepseek-v4.1-flash-1017,deepseek,chat,nebius,0.3,1.2,0.006,,1049000,0,0,nebius/deepseek-ai/DeepSeek-V4.1-Flash-1017
@@ -659,10 +659,10 @@ claude-fable-5-2,anthropic,chat,databricks,8.00002,40,0.19999,9.99999,1000000,0,
 claude-fable-5-2,anthropic,chat,bedrock_converse,8.8,44,0.22,11,1000000,0,0,eu.anthropic.claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock,9.6,48,0.24,12,1000000,0,0,bedrock/us-gov-west-1/anthropic.claude-fable-5-2
 claude-fable-5-2,anthropic,chat,bedrock_converse,9.6,48,0.24,12,1000000,0,0,us-gov.anthropic.claude-fable-5-2
-claude-opus-4-5,anthropic,chat,anthropic,5,25,0.5,6.25,409600,0,0,claude-opus-4-5-20251101
+claude-opus-4-5,anthropic,chat,anthropic,5,25,0.5,6.25,409600,0,1,claude-opus-4-5-20251101
 claude-opus-4-5,anthropic,chat,azure_ai,5,25,0.5,6.25,409600,0,1,azure_ai/claude-opus-4-5
-claude-opus-4-5,anthropic,chat,bedrock,5,25,0.5,6.25,409600,0,0,bedrock/claude_platform/claude-opus-4-5
-claude-opus-4-5,anthropic,chat,bedrock_converse,5,25,0.5,6.25,409600,0,0,anthropic.claude-opus-4-5-20251101-v1:0
+claude-opus-4-5,anthropic,chat,bedrock,5,25,0.5,6.25,409600,0,1,bedrock/claude_platform/claude-opus-4-5
+claude-opus-4-5,anthropic,chat,bedrock_converse,5,25,0.5,6.25,409600,0,1,anthropic.claude-opus-4-5-20251101-v1:0
 claude-opus-4-5,anthropic,chat,gmi,5,25,,,409600,0,0,gmi/anthropic/claude-opus-4.5
 claude-opus-4-5,anthropic,chat,perplexity,5,25,0.5,,409600,0,0,perplexity/anthropic/claude-opus-4-5
 claude-opus-4-5,anthropic,chat,perplexity_orchestrator,5,25,0.5,6.25,409600,0,0,perplexity_orchestrator/anthropic/claude-opus-4-5
@@ -670,7 +670,7 @@ claude-opus-4-5,anthropic,chat,snowflake,5,25,0.5,6.25,409600,0,0,snowflake/clau
 claude-opus-4-5,anthropic,chat,vercel_ai_gateway,5,25,0.5,6.25,409600,0,0,vercel_ai_gateway/anthropic/claude-opus-4.5
 claude-opus-4-5,anthropic,chat,vertex_ai-anthropic_models,5,25,0.5,6.25,409600,0,1,vertex_ai/claude-opus-4-5
 claude-opus-4-5,anthropic,chat,databricks,5.00003,25,0.50001,6.25002,409600,0,0,databricks/databricks-claude-opus-4-5
-claude-opus-4-5,anthropic,chat,bedrock_converse,5.5,27.5,0.55,6.875,409600,0,0,us.anthropic.claude-opus-4-5-20251101-v1:0
+claude-opus-4-5,anthropic,chat,bedrock_converse,5.5,27.5,0.55,6.875,409600,0,1,us.anthropic.claude-opus-4-5-20251101-v1:0
 claude-opus-4-6,anthropic,chat,anthropic,5,25,0.5,6.25,1000000,0,0,claude-opus-4-6
 claude-opus-4-6,anthropic,chat,azure_ai,5,25,0.5,6.25,1000000,0,1,azure_ai/claude-opus-4-6
 claude-opus-4-6,anthropic,chat,bedrock,5,25,0.5,6.25,1000000,0,0,bedrock/claude_platform/claude-opus-4-6
@@ -1097,7 +1097,7 @@ gemini-4-argon,google,chat,perplexity,2,10,0.1,,1048576,0,0,perplexity/google/ge
 gemini-4-argon,google,chat,vertex_ai,2,10,0.1,,1048576,0,0,vertex_ai/gemini-4-argon
 gemini-4-argon,google,chat,databricks,2.49998,12.5,0.12502,2.49998,1048576,0,0,databricks/databricks-gemini-4-argon
 gemini-4-argon,google,chat,kyma,5.4,27,0.27,,1048576,0,0,kyma/gemini-4-argon
-gpt-5-nano,openai,chat,databricks,0.04998,0.39998,0.00497,0.04998,5000000,0,0,databricks/databricks-gpt-5-nano
+gpt-5-nano,openai,chat,databricks,0.04998,0.39998,0.00497,0.04998,5000000,0,1,databricks/databricks-gpt-5-nano
 gpt-5-nano,openai,chat,azure,0.05,0.4,0.005,,5000000,0,1,azure/gpt-5-nano
 gpt-5-nano,openai,chat,oci,0.05,0.4,,,5000000,0,0,oci/openai.gpt-5-nano
 gpt-5-nano,openai,chat,openai,0.05,0.4,0.005,,5000000,0,1,gpt-5-nano
@@ -2226,6 +2226,8 @@ deepseek-v3.2-exp,deepseek,chat,gmi,0.27,0.41,,,163840,0,0,gmi/deepseek-ai/DeepS
 deepseek-v3.2-exp,deepseek,chat,novita,0.27,0.41,,,163840,0,0,novita/deepseek/deepseek-v3.2-exp
 deepseek-v3.2-speciale,deepseek,chat,gmi,0.28,0.4,,,163840,0,0,gmi/deepseek-ai/DeepSeek-V3.2-Speciale
 deepseek-v3.2-speciale,deepseek,chat,azure_ai,0.58,1.68,,,163840,0,1,azure_ai/deepseek-v3.2-speciale
+deepseek-v4.1-flash-1017-fast,deepseek,chat,baseten,0.6,2.4,0.014,,1048576,0,0,baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast
+deepseek-v4.1-flash-1017-fast,deepseek,chat,together_ai,0.6,2.4,0.012,,1048576,0,0,together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017-fast
 devstral-2-123b,mistral,chat,bedrock_converse,0.4,2,,,256000,0,1,mistral.devstral-2-123b
 devstral-2-123b,mistral,chat,bedrock_mantle,0.4,2,,,256000,0,1,bedrock_mantle/mistral.devstral-2-123b
 devstral-2-123b,mistral,chat,bedrock_converse,0.41,2.06,,,256000,0,1,bedrock/ap-southeast-2/mistral.devstral-2-123b
@@ -2602,8 +2604,8 @@ qwen3-next-80b-a3b,alibaba,chat,bedrock,0.18,1.41,,,262144,0,0,bedrock/ap-south-
 qwen3-next-80b-a3b,alibaba,chat,bedrock,0.23,1.86,,,262144,0,0,bedrock/eu-west-2/qwen.qwen3-next-80b-a3b
 qwen3-vl-30b-a3b-thinking,alibaba,chat,fireworks_ai,0.15,0.6,,,262144,0,0,fireworks_ai/accounts/fireworks/models/qwen3-vl-30b-a3b-thinking
 qwen3-vl-30b-a3b-thinking,alibaba,chat,novita,0.2,1,,,262144,0,0,novita/qwen/qwen3-vl-30b-a3b-thinking
-qwen4-max,alibaba,chat,together_ai,1.05,3.15,0.0525,,1000000,0,0,together_ai/Qwen/Qwen4-Max
 qwen4-max,alibaba,chat,dashscope,1.5,4.5,0.075,1.875,1000000,0,0,dashscope/qwen4-max
+qwen4-max,alibaba,chat,together_ai,1.5,4.5,0.075,,1000000,0,0,together_ai/Qwen/Qwen4-Max
 ripple-65b-preview,other,chat,gmi,0.2,0.6,0.05,,1000000,0,0,gmi/gmicloud/Ripple-65B-Preview
 ripple-65b-preview,other,chat,together_ai,0.2,0.6,0.02,,1000000,0,0,together_ai/ricursive-ai/Ripple-65B-Preview
 seed-2-0-code,other,chat,empiriolabs,0.4,2.4,,,256000,0,0,empiriolabs/seed-2-0-code
@@ -2795,7 +2797,6 @@ deepseek-v4-pro-fast,deepseek,chat,wally,1.91,3.83,0.16,,1048576,0,0,wally/deeps
 deepseek-v4-pro:variant1,deepseek,chat,empiriolabs,2.4,4.8,,,1000000,0,0,empiriolabs/deepseek-v4-pro:variant1
 deepseek-v4-pro:variant2,deepseek,chat,empiriolabs,1.65,3.301,0.138,,1000000,0,0,empiriolabs/deepseek-v4-pro:variant2
 deepseek-v4-pro:variant3,deepseek,chat,empiriolabs,2.4,4.8,,,1000000,0,0,empiriolabs/deepseek-v4-pro:variant3
-deepseek-v4.1-flash-1017-fast,deepseek,chat,baseten,0.6,2.4,0.014,,1048576,0,0,baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast
 deepseek-v4.1-flash-260910,deepseek,chat,streamlake,0.3,1.2,0.006,,1048568,0,0,streamlake/deepseek-v4.1-flash-260910
 deepseek-v4.1-flash-abliterated,deepseek,chat,refuseless,0.14,0.5,0.035,,1048576,0,0,refuseless/deepseek-v4.1-flash-abliterated
 deepseek-v4.1-flash-f2,deepseek,chat,wally,0.3,1.2,0.006,,1048576,0,0,wally/deepseek-v4.1-flash-f2
@@ -2886,6 +2887,7 @@ gemini-3-pro-image,google,chat,databricks,2.49998,15,2.49998,2.49998,65536,0,0,d
 gemini-3-pro-preview,google,chat,vertex_ai,2,12,0.2,,1048576,0,0,vertex_ai/gemini-3-pro-preview
 gemini-4-argon-cyber-permissive,google,chat,vertex_ai,4,20,0.2,,1048576,0,0,vertex_ai/gemini-4-argon-cyber-permissive
 gemini-4-carbon-cyber-permissive,google,chat,vertex_ai,4,20,0.2,,1048576,0,0,vertex_ai/gemini-4-carbon-cyber-permissive
+gemini-4-neon-cyber-permissive,google,chat,vertex_ai,3,15,0.15,,1048576,0,0,vertex_ai/gemini-4-neon-cyber-permissive
 gemini-exp-1114,google,chat,gemini,0,0,,,1048576,1,0,gemini/gemini-exp-1114
 gemini-exp-1206,google,chat,gemini,0,0,,,2097152,1,0,gemini/gemini-exp-1206
 gemini-exp-1206,google,chat,gemini,0.3,2.5,0.03,,2097152,0,0,gemini-exp-1206
@@ -3939,6 +3941,8 @@ mercury-decide,other,evaluation,openrouter,0,0,,,65536,1,0,openrouter/inception/
 mercury-decide,other,evaluation,openrouter,0.02,0,,,65536,0,0,openrouter/inception/mercury-decide
 microsoft-decision-1,other,evaluation,azure_ai,0.042,0,,,32768,0,1,azure_ai/Microsoft-Decision-1
 microsoft-decision-1.1,other,decisions,azure_ai,0.042,0,,,32768,0,0,azure_ai/Microsoft-Decision-1.1
+minimax-h3-image,minimax,image_generation,minimax,2.3,,,,,0,0,minimax/MiniMax-H3-Image
+minimax-h3-image-highspeed,minimax,image_generation,minimax,2.3,,,,,0,0,minimax/MiniMax-H3-Image-Highspeed
 mistral-embed (embedding),mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed
 mistral-embed-2312,mistral,embedding,mistral,0.1,,0.01,,8192,0,0,mistral/mistral-embed-2312
 mistral-moderation-2603,mistral,moderation,mistral,0,0,,,131072,1,0,mistral/mistral-moderation-2603
