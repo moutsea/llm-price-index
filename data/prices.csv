@@ -44,7 +44,7 @@ gpt-oss-120b,openai,chat,nebius,0.15,0.6,0.1,,131072,0,0,nebius/openai/gpt-oss-1
 gpt-oss-120b,openai,chat,oci,0.15,0.6,,,131072,0,0,oci/openai.gpt-oss-120b
 gpt-oss-120b,openai,chat,scaleway,0.15,0.6,,,131072,0,0,scaleway/openai/gpt-oss-120b
 gpt-oss-120b,openai,chat,tensormesh,0.15,0.6,0,,131072,0,0,tensormesh/openai/gpt-oss-120b
-gpt-oss-120b,openai,chat,together_ai,0.15,0.6,,,131072,0,0,together_ai/openai/gpt-oss-120b
+gpt-oss-120b,openai,chat,together_ai,0.15,0.6,,,131072,0,1,together_ai/openai/gpt-oss-120b
 gpt-oss-120b,openai,chat,zerogpu,0.15,0.6,0.03,,131072,0,0,zerogpu/gpt-oss-120b
 gpt-oss-120b,openai,chat,databricks,0.15001,0.59997,0.15001,0.15001,131072,0,0,databricks/databricks-gpt-oss-120b
 gpt-oss-120b,openai,chat,bedrock_mantle,0.1545,0.618,,,131072,0,0,bedrock_mantle/ap-southeast-2/openai.gpt-oss-120b
@@ -294,7 +294,7 @@ deepseek-v4-pro-0813,deepseek,chat,perplexity,1.32,3.96,0.044,,1049000,0,0,perpl
 deepseek-v4-pro-0813,deepseek,chat,perplexity_orchestrator,1.32,3.96,0.044,,1049000,0,0,perplexity_orchestrator/perplexity/deepseek-v4-pro-0813
 deepseek-v4-pro-0813,deepseek,chat,streamlake,1.32,3.96,0.044,,1049000,0,0,streamlake/DeepSeek-V4-Pro-0813
 deepseek-v4-pro-0813,deepseek,chat,tencent,1.32,3.96,0.044,0,1049000,0,0,tencent/deepseek-v4-pro-0813
-deepseek-v4-pro-0813,deepseek,chat,together_ai,1.32,3.96,0.13,,1049000,0,0,together_ai/deepseek-ai/DeepSeek-V4-Pro-0813
+deepseek-v4-pro-0813,deepseek,chat,together_ai,1.32,3.96,0.13,,1049000,0,1,together_ai/deepseek-ai/DeepSeek-V4-Pro-0813
 deepseek-v4-pro-0813,deepseek,chat,inferenceapis,1.72,5.15,0.17,,1049000,0,0,inferenceapis/deepseek-ai/DeepSeek-V4-Pro-0813
 gpt-5.6-luna,openai,chat,databricks,0.19999,1.20001,0.02002,0.24997,1050000,0,0,databricks/databricks-gpt-5-6-luna
 gpt-5.6-luna,openai,chat,aihubmix,0.2,1.2,0.02,0.25,1050000,0,0,aihubmix/gpt-5.6-luna
@@ -1693,6 +1693,10 @@ gpt-oss-safeguard-20b,openai,chat,bedrock_mantle,0.084,0.24,,,131072,0,0,bedrock
 gpt-oss-safeguard-20b,openai,chat,bedrock_converse,0.11,0.31,,,131072,0,0,bedrock/eu-west-2/openai.gpt-oss-safeguard-20b
 gpt-oss-safeguard-20b,openai,chat,bedrock_mantle,0.11,0.31,,,131072,0,0,bedrock_mantle/eu-west-2/openai.gpt-oss-safeguard-20b
 gpt-oss-safeguard-20b,openai,chat,fireworks_ai,0.5,0.5,,,131072,0,0,fireworks_ai/accounts/fireworks/models/gpt-oss-safeguard-20b
+inkling-2-small,other,chat,cloudflare,0.3,1,0.1,,1048576,0,0,cloudflare/@cf/thinkingmachines/inkling-2-small
+inkling-2-small,other,chat,fireworks_ai,0.3,1,0.03,,1048576,0,0,fireworks_ai/accounts/fireworks/models/inkling-2-small
+inkling-2-small,other,chat,nebius,0.3,1,0.06,,1048576,0,0,nebius/thinkingmachines/Inkling-2-Small
+inkling-2-small,other,chat,together_ai,0.3,1,0.03,,1048576,0,0,together_ai/thinkingmachines/Inkling-2-Small
 kimi-k2.7-code-highspeed,moonshot,chat,aihubmix,1.9,7.999,0.32167,,262144,0,0,aihubmix/kimi-k2.7-code-highspeed
 kimi-k2.7-code-highspeed,moonshot,chat,empiriolabs,1.9,8,,,262144,0,0,empiriolabs/kimi-k2-7-code-highspeed
 kimi-k2.7-code-highspeed,moonshot,chat,gmi,1.9,8,0.38,,262144,0,0,gmi/moonshotai/kimi-k2.7-code-highspeed
@@ -1955,9 +1959,6 @@ grok-4.20-multi-agent,xai,chat,kyma,1.767,3.534,,,2000000,0,0,kyma/grok-4.20-mul
 hy4,other,chat,gmi,0.417,1.2505,0.021,,1048576,0,0,gmi/tencent/hy4
 hy4,other,chat,tencent,0.417,1.2505,0.021,,1048576,0,0,tencent/hy4
 hy4,other,chat,together_ai,0.834,2.501,0.042,,1048576,0,0,together_ai/tencent/Hy4
-inkling-2-small,other,chat,cloudflare,0.3,1,0.1,,1048576,0,0,cloudflare/@cf/thinkingmachines/inkling-2-small
-inkling-2-small,other,chat,nebius,0.3,1,0.06,,1048576,0,0,nebius/thinkingmachines/Inkling-2-Small
-inkling-2-small,other,chat,together_ai,0.3,1,0.03,,1048576,0,0,together_ai/thinkingmachines/Inkling-2-Small
 jamba-1.5-large,ai21,chat,ai21,2,8,,,256000,0,0,jamba-1.5-large
 jamba-1.5-large,ai21,chat,bedrock,2,8,,,256000,0,1,ai21.jamba-1-5-large-v1:0
 jamba-1.5-large,ai21,chat,vertex_ai-ai21_models,2,8,,,256000,0,1,vertex_ai/jamba-1.5-large
@@ -2972,7 +2973,9 @@ glm-5p2-fast-us,zhipu,chat,fireworks_ai,2.1,6.6,0.21,,1048576,0,1,fireworks_ai/g
 glm-5p3,zhipu,chat,fireworks_ai,1.4,4.4,0.26,,1048576,0,0,fireworks_ai/accounts/fireworks/models/glm-5p3
 glm-5p3-fast,zhipu,chat,fireworks_ai,2.1,6.6,0.39,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-5p3-fast
 glm-5p3-flash,zhipu,chat,fireworks_ai,0.15,0.5,0.03,,1048576,0,0,fireworks_ai/accounts/fireworks/models/glm-5p3-flash
+glm-5p3-flash-flex,zhipu,chat,fireworks_ai,0.075,0.25,0.015,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-flex
 glm-5p3-flash-us,zhipu,chat,fireworks_ai,0.225,0.75,0.045,,1048576,0,1,fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-us
+glm-5p3-flex,zhipu,chat,fireworks_ai,0.7,2.2,0.13,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-5p3-flex
 glm-5p3-spot,zhipu,chat,fireworks_ai,0.7,2.2,0.13,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-5p3-spot
 glm-5p3-us,zhipu,chat,fireworks_ai,2.1,6.6,0.39,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-5p3-us
 glm-fast,zhipu,chat,fireworks_ai,2.1,6.6,0.39,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/glm-fast-latest
@@ -3125,6 +3128,7 @@ kimi-k3-spot,moonshot,chat,fireworks_ai,2.1,10.5,0.21,,1048576,0,0,fireworks_ai/
 kimi-k3-us,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-us
 kimi-k3.1-pro-highspeed,moonshot,chat,moonshot,4,20,0.2,4,1048576,0,0,moonshot/kimi-k3.1-pro-highspeed
 kimi-k3p1-pro,moonshot,chat,fireworks_ai,2,10,0.2,,1048576,0,0,fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro
+kimi-k3p1-pro-ultrafast,moonshot,chat,fireworks_ai,5,25,0.5,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast
 kimi-k3p1-pro-us,moonshot,chat,fireworks_ai,2.5,12.5,0.25,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us
 l3-70b-euryale-v2.1,other,chat,novita,1.48,1.48,,,8192,0,0,novita/sao10k/l3-70b-euryale-v2.1
 l3-8b-lunaris,other,chat,novita,0.05,0.05,,,8192,0,0,novita/sao10k/l3-8b-lunaris
@@ -3623,7 +3627,7 @@ system.ai.gemini-4-hydrogen,other,chat,databricks,1.87502,9.37503,0.09373,2.3437
 system.ai.gpt-6-2-astra,other,chat,databricks,8.00002,40,0.39998,9.99999,922000,0,0,databricks/system.ai.gpt-6-2-astra
 system.ai.gpt-6-2-sol,other,chat,databricks,1.99997,9.99999,0.10003,2.49998,922000,0,0,databricks/system.ai.gpt-6-2-sol
 ternary-bonsai-27b,other,chat,together_ai,0,0,,,262144,1,0,together_ai/Prism-ML/Ternary-Bonsai-27B
-tev1-4b-experimental,other,chat,together_ai,0.042,0,,,32768,0,0,together_ai/together/Tev1-4B-experimental
+tev1-4b-experimental,other,chat,together_ai,0.042,0,,,32768,0,1,together_ai/together/Tev1-4B-experimental
 text-unicorn,other,chat,vertex_ai-text-models,10,28,,,8192,0,0,text-unicorn
 text-unicorn-001,other,chat,vertex_ai-text-models,10,28,,,8192,0,0,text-unicorn@001
 titan-embed-text,amazon,chat,vercel_ai_gateway,0.02,0,,,,0,0,vercel_ai_gateway/amazon/titan-embed-text-v2
