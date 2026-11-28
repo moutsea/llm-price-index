@@ -2902,6 +2902,7 @@ gemini-flash,google,chat,gemini,0.75,3.75,0.075,,1048576,0,0,gemini/gemini-flash
 gemini-flash-lite,google,chat,gemini,0.3,2.5,0.03,,1048576,0,0,gemini/gemini-flash-lite-latest
 gemini-gemma-2-27b-it,google,chat,gemini,0.35,1.05,,,8192,0,0,gemini/gemini-gemma-2-27b-it
 gemini-gemma-2-9b-it,google,chat,gemini,0.35,1.05,,,8192,0,0,gemini/gemini-gemma-2-9b-it
+gemini-nano-banana-2-1,google,chat,databricks,1.87502,9.37503,0.18753,1.87502,131072,0,0,databricks/databricks-gemini-nano-banana-2-1
 gemini-omni-1.1-flash-preview,google,chat,vertex_ai,1.5,9,,,131072,0,0,vertex_ai/gemini-omni-1.1-flash-preview
 gemini-pro,google,chat,gemini,2,12,0.2,,1048576,0,0,gemini-pro-latest
 gemini-robotics-er-1.5-preview,google,chat,vertex_ai-language-models,0.3,2.5,0,,1048576,0,0,gemini-robotics-er-1.5-preview
@@ -3076,8 +3077,8 @@ grok-4.20-multi-agent-experimental-beta,xai,chat,xai,1.25,2.5,0.2,,1000000,0,0,x
 grok-4.20-multi-agent-experimental-beta-0304,xai,chat,xai,1.25,2.5,0.2,,1000000,0,0,xai/grok-4.20-multi-agent-experimental-beta-0304
 grok-4.20-non-reasoning-gv2,xai,chat,xai,1.25,2.5,0.2,,1000000,0,0,xai/grok-4.20-non-reasoning-gv2
 grok-4.20-reasoning-gv2,xai,chat,xai,1.25,2.5,0.2,,1000000,0,0,xai/grok-4.20-reasoning-gv2
-grok-code-fast,xai,chat,xai,1,2,0.2,,256000,0,0,xai/grok-code-fast
-grok-code-fast-1-0825,xai,chat,xai,1,2,0.2,,256000,0,0,xai/grok-code-fast-1-0825
+grok-code-fast,xai,chat,xai,1,2,0.2,,256000,0,1,xai/grok-code-fast
+grok-code-fast-1-0825,xai,chat,xai,1,2,0.2,,256000,0,1,xai/grok-code-fast-1-0825
 grok4.6,xai,chat,gmi,2,6,0.5,,2000000,0,0,gmi/xai/grok4.6
 grok4.7,xai,chat,gmi,2,6,0.5,,500000,0,0,gmi/xai/grok4.7
 hermes-2-pro-llama-3-8b,other,chat,novita,0.14,0.14,,,8192,0,0,novita/nousresearch/hermes-2-pro-llama-3-8b
@@ -3123,6 +3124,7 @@ kimi-k2p6,moonshot,chat,fireworks_ai,0.95,4,0.16,,262144,0,1,fireworks_ai/accoun
 kimi-k2p6-fast,moonshot,chat,fireworks_ai,2,8,0.3,,262144,0,1,fireworks_ai/kimi-k2p6-fast
 kimi-k2p7-code,moonshot,chat,fireworks_ai,0.95,4,0.19,,262144,0,1,fireworks_ai/accounts/fireworks/models/kimi-k2p7-code
 kimi-k2p7-code-fast,moonshot,chat,fireworks_ai,1.9,8,0.38,,262144,0,1,fireworks_ai/kimi-k2p7-code-fast
+kimi-k3-1-pro-fast,moonshot,chat,databricks,1.99997,9.99999,0.19999,1.99997,1048576,0,0,databricks/databricks-kimi-k3-1-pro-fast
 kimi-k3-fast,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-fast
 kimi-k3-spot,moonshot,chat,fireworks_ai,2.1,10.5,0.21,,1048576,0,0,fireworks_ai/accounts/fireworks/routers/kimi-k3-spot
 kimi-k3-us,moonshot,chat,fireworks_ai,4.5,22.5,0.45,,1048576,0,0,fireworks_ai/kimi-k3-us
@@ -3624,6 +3626,7 @@ swe-1.7-lightning,other,chat,cognition,2.5,12.5,1,,,0,0,cognition/swe-1.7-lightn
 system.ai.claude-fable-5-2,other,chat,databricks,8.00002,40,0.19999,9.99999,1000000,0,0,databricks/system.ai.claude-fable-5-2
 system.ai.gemini-4-carbon,other,chat,databricks,2.49998,12.5,0.12502,2.49998,1048576,0,0,databricks/system.ai.gemini-4-carbon
 system.ai.gemini-4-hydrogen,other,chat,databricks,1.87502,9.37503,0.09373,2.34374,1048576,0,0,databricks/system.ai.gemini-4-hydrogen
+system.ai.gemini-4-neon,other,chat,databricks,3,15,0.15,3,1048576,0,0,databricks/system.ai.gemini-4-neon
 system.ai.gpt-6-2-astra,other,chat,databricks,8.00002,40,0.39998,9.99999,922000,0,0,databricks/system.ai.gpt-6-2-astra
 system.ai.gpt-6-2-sol,other,chat,databricks,1.99997,9.99999,0.10003,2.49998,922000,0,0,databricks/system.ai.gpt-6-2-sol
 ternary-bonsai-27b,other,chat,together_ai,0,0,,,262144,1,0,together_ai/Prism-ML/Ternary-Bonsai-27B
